@@ -8,7 +8,23 @@
     "predictions": [
       {
         "model_version": "init",
-        "result": []
+        "result": [
+          {
+            "id": "r1",
+            "type": "timeserieslabels",
+            "from_name": "label",
+            "to_name": "ts",
+            "origin": "manual",
+            "value": {
+              "start": 0,
+              "end": 15000,
+              "instant": false,
+              "timeserieslabels": [
+                "unlabeled"
+              ]
+            }
+          }
+        ]
       }
     ]
   },
@@ -21,61 +37,7 @@
     "predictions": [
       {
         "model_version": "init",
-        "result": []
-      }
-    ]
-  },
-  {
-    "data": {
-      "ts": {
-        "url": "https://kinglotdke.github.io/horse-imu-labeling/horse01/chunks/horse01_chunk0003.csv"
-      }
-    },
-    "predictions": [
-      {
-        "model_version": "init",
-        "result": []
-      }
-    ]
-  },
-  {
-    "data": {
-      "ts": {
-        "url": "https://kinglotdke.github.io/horse-imu-labeling/horse01/chunks/horse01_chunk0004.csv"
-      }
-    },
-    "predictions": [
-      {
-        "model_version": "init",
-        "result": []
-      }
-    ]
-  },
-  {
-    "data": {
-      "ts": {
-        "url": "https://kinglotdke.github.io/horse-imu-labeling/horse01/chunks/horse01_chunk0005.csv"
-      }
-    },
-    "predictions": [
-      {
-        "model_version": "init",
         "result": [
-          {
-            "id": "r1",
-            "type": "timeserieslabels",
-            "from_name": "label",
-            "to_name": "ts",
-            "origin": "manual",
-            "value": {
-              "start": 43591,
-              "end": 48560,
-              "instant": false,
-              "timeserieslabels": [
-                "tt"
-              ]
-            }
-          },
           {
             "id": "r2",
             "type": "timeserieslabels",
@@ -83,11 +45,11 @@
             "to_name": "ts",
             "origin": "manual",
             "value": {
-              "start": 48560,
-              "end": 50000,
+              "start": 15000,
+              "end": 30000,
               "instant": false,
               "timeserieslabels": [
-                "fw"
+                "unlabeled"
               ]
             }
           }
@@ -98,7 +60,7 @@
   {
     "data": {
       "ts": {
-        "url": "https://kinglotdke.github.io/horse-imu-labeling/horse01/chunks/horse01_chunk0006.csv"
+        "url": "https://kinglotdke.github.io/horse-imu-labeling/horse01/chunks/horse01_chunk0003.csv"
       }
     },
     "predictions": [
@@ -112,7 +74,66 @@
             "to_name": "ts",
             "origin": "manual",
             "value": {
-              "start": 50000,
+              "start": 30000,
+              "end": 43591,
+              "instant": false,
+              "timeserieslabels": [
+                "unlabeled"
+              ]
+            }
+          },
+          {
+            "id": "r4",
+            "type": "timeserieslabels",
+            "from_name": "label",
+            "to_name": "ts",
+            "origin": "manual",
+            "value": {
+              "start": 43591,
+              "end": 45000,
+              "instant": false,
+              "timeserieslabels": [
+                "tt"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "ts": {
+        "url": "https://kinglotdke.github.io/horse-imu-labeling/horse01/chunks/horse01_chunk0004.csv"
+      }
+    },
+    "predictions": [
+      {
+        "model_version": "init",
+        "result": [
+          {
+            "id": "r5",
+            "type": "timeserieslabels",
+            "from_name": "label",
+            "to_name": "ts",
+            "origin": "manual",
+            "value": {
+              "start": 45000,
+              "end": 48560,
+              "instant": false,
+              "timeserieslabels": [
+                "tt"
+              ]
+            }
+          },
+          {
+            "id": "r6",
+            "type": "timeserieslabels",
+            "from_name": "label",
+            "to_name": "ts",
+            "origin": "manual",
+            "value": {
+              "start": 48560,
               "end": 50081,
               "instant": false,
               "timeserieslabels": [
@@ -121,7 +142,7 @@
             }
           },
           {
-            "id": "r4",
+            "id": "r7",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -142,80 +163,7 @@
   {
     "data": {
       "ts": {
-        "url": "https://kinglotdke.github.io/horse-imu-labeling/horse01/chunks/horse01_chunk0007.csv"
-      }
-    },
-    "predictions": [
-      {
-        "model_version": "init",
-        "result": [
-          {
-            "id": "r5",
-            "type": "timeserieslabels",
-            "from_name": "label",
-            "to_name": "ts",
-            "origin": "manual",
-            "value": {
-              "start": 60000,
-              "end": 70000,
-              "instant": false,
-              "timeserieslabels": [
-                "wl"
-              ]
-            }
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "data": {
-      "ts": {
-        "url": "https://kinglotdke.github.io/horse-imu-labeling/horse01/chunks/horse01_chunk0008.csv"
-      }
-    },
-    "predictions": [
-      {
-        "model_version": "init",
-        "result": [
-          {
-            "id": "r6",
-            "type": "timeserieslabels",
-            "from_name": "label",
-            "to_name": "ts",
-            "origin": "manual",
-            "value": {
-              "start": 70000,
-              "end": 76308,
-              "instant": false,
-              "timeserieslabels": [
-                "wl"
-              ]
-            }
-          },
-          {
-            "id": "r7",
-            "type": "timeserieslabels",
-            "from_name": "label",
-            "to_name": "ts",
-            "origin": "manual",
-            "value": {
-              "start": 76308,
-              "end": 80000,
-              "instant": false,
-              "timeserieslabels": [
-                "wr"
-              ]
-            }
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "data": {
-      "ts": {
-        "url": "https://kinglotdke.github.io/horse-imu-labeling/horse01/chunks/horse01_chunk0009.csv"
+        "url": "https://kinglotdke.github.io/horse-imu-labeling/horse01/chunks/horse01_chunk0005.csv"
       }
     },
     "predictions": [
@@ -229,7 +177,51 @@
             "to_name": "ts",
             "origin": "manual",
             "value": {
-              "start": 80000,
+              "start": 60000,
+              "end": 75000,
+              "instant": false,
+              "timeserieslabels": [
+                "wl"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "ts": {
+        "url": "https://kinglotdke.github.io/horse-imu-labeling/horse01/chunks/horse01_chunk0006.csv"
+      }
+    },
+    "predictions": [
+      {
+        "model_version": "init",
+        "result": [
+          {
+            "id": "r9",
+            "type": "timeserieslabels",
+            "from_name": "label",
+            "to_name": "ts",
+            "origin": "manual",
+            "value": {
+              "start": 75000,
+              "end": 76308,
+              "instant": false,
+              "timeserieslabels": [
+                "wl"
+              ]
+            }
+          },
+          {
+            "id": "r10",
+            "type": "timeserieslabels",
+            "from_name": "label",
+            "to_name": "ts",
+            "origin": "manual",
+            "value": {
+              "start": 76308,
               "end": 86189,
               "instant": false,
               "timeserieslabels": [
@@ -238,7 +230,7 @@
             }
           },
           {
-            "id": "r9",
+            "id": "r11",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -259,7 +251,7 @@
   {
     "data": {
       "ts": {
-        "url": "https://kinglotdke.github.io/horse-imu-labeling/horse01/chunks/horse01_chunk0010.csv"
+        "url": "https://kinglotdke.github.io/horse-imu-labeling/horse01/chunks/horse01_chunk0007.csv"
       }
     },
     "predictions": [
@@ -267,7 +259,7 @@
         "model_version": "init",
         "result": [
           {
-            "id": "r10",
+            "id": "r12",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -282,71 +274,42 @@
             }
           },
           {
-            "id": "r11",
-            "type": "timeserieslabels",
-            "from_name": "label",
-            "to_name": "ts",
-            "origin": "manual",
-            "value": {
-              "start": 99974,
-              "end": 100000,
-              "instant": false,
-              "timeserieslabels": [
-                "tl"
-              ]
-            }
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "data": {
-      "ts": {
-        "url": "https://kinglotdke.github.io/horse-imu-labeling/horse01/chunks/horse01_chunk0011.csv"
-      }
-    },
-    "predictions": [
-      {
-        "model_version": "init",
-        "result": [
-          {
-            "id": "r12",
-            "type": "timeserieslabels",
-            "from_name": "label",
-            "to_name": "ts",
-            "origin": "manual",
-            "value": {
-              "start": 100000,
-              "end": 110000,
-              "instant": false,
-              "timeserieslabels": [
-                "tl"
-              ]
-            }
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "data": {
-      "ts": {
-        "url": "https://kinglotdke.github.io/horse-imu-labeling/horse01/chunks/horse01_chunk0012.csv"
-      }
-    },
-    "predictions": [
-      {
-        "model_version": "init",
-        "result": [
-          {
             "id": "r13",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
             "origin": "manual",
             "value": {
-              "start": 110000,
+              "start": 99974,
+              "end": 105000,
+              "instant": false,
+              "timeserieslabels": [
+                "tl"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "ts": {
+        "url": "https://kinglotdke.github.io/horse-imu-labeling/horse01/chunks/horse01_chunk0008.csv"
+      }
+    },
+    "predictions": [
+      {
+        "model_version": "init",
+        "result": [
+          {
+            "id": "r14",
+            "type": "timeserieslabels",
+            "from_name": "label",
+            "to_name": "ts",
+            "origin": "manual",
+            "value": {
+              "start": 105000,
               "end": 112329,
               "instant": false,
               "timeserieslabels": [
@@ -355,7 +318,7 @@
             }
           },
           {
-            "id": "r14",
+            "id": "r15",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -376,7 +339,7 @@
   {
     "data": {
       "ts": {
-        "url": "https://kinglotdke.github.io/horse-imu-labeling/horse01/chunks/horse01_chunk0013.csv"
+        "url": "https://kinglotdke.github.io/horse-imu-labeling/horse01/chunks/horse01_chunk0009.csv"
       }
     },
     "predictions": [
@@ -384,7 +347,7 @@
         "model_version": "init",
         "result": [
           {
-            "id": "r15",
+            "id": "r16",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -399,7 +362,7 @@
             }
           },
           {
-            "id": "r16",
+            "id": "r17",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -414,14 +377,14 @@
             }
           },
           {
-            "id": "r17",
+            "id": "r18",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
             "origin": "manual",
             "value": {
               "start": 126213,
-              "end": 130000,
+              "end": 135000,
               "instant": false,
               "timeserieslabels": [
                 "cr"
@@ -435,7 +398,7 @@
   {
     "data": {
       "ts": {
-        "url": "https://kinglotdke.github.io/horse-imu-labeling/horse01/chunks/horse01_chunk0014.csv"
+        "url": "https://kinglotdke.github.io/horse-imu-labeling/horse01/chunks/horse01_chunk0010.csv"
       }
     },
     "predictions": [
@@ -443,13 +406,13 @@
         "model_version": "init",
         "result": [
           {
-            "id": "r18",
+            "id": "r19",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
             "origin": "manual",
             "value": {
-              "start": 130000,
+              "start": 135000,
               "end": 138882,
               "instant": false,
               "timeserieslabels": [
@@ -458,42 +421,13 @@
             }
           },
           {
-            "id": "r19",
-            "type": "timeserieslabels",
-            "from_name": "label",
-            "to_name": "ts",
-            "origin": "manual",
-            "value": {
-              "start": 138882,
-              "end": 140000,
-              "instant": false,
-              "timeserieslabels": [
-                "wr"
-              ]
-            }
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "data": {
-      "ts": {
-        "url": "https://kinglotdke.github.io/horse-imu-labeling/horse01/chunks/horse01_chunk0015.csv"
-      }
-    },
-    "predictions": [
-      {
-        "model_version": "init",
-        "result": [
-          {
             "id": "r20",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
             "origin": "manual",
             "value": {
-              "start": 140000,
+              "start": 138882,
               "end": 148742,
               "instant": false,
               "timeserieslabels": [
@@ -523,7 +457,7 @@
   {
     "data": {
       "ts": {
-        "url": "https://kinglotdke.github.io/horse-imu-labeling/horse01/chunks/horse01_chunk0016.csv"
+        "url": "https://kinglotdke.github.io/horse-imu-labeling/horse01/chunks/horse01_chunk0011.csv"
       }
     },
     "predictions": [
@@ -538,7 +472,7 @@
             "origin": "manual",
             "value": {
               "start": 150000,
-              "end": 160000,
+              "end": 165000,
               "instant": false,
               "timeserieslabels": [
                 "wl"
@@ -552,7 +486,7 @@
   {
     "data": {
       "ts": {
-        "url": "https://kinglotdke.github.io/horse-imu-labeling/horse01/chunks/horse01_chunk0017.csv"
+        "url": "https://kinglotdke.github.io/horse-imu-labeling/horse01/chunks/horse01_chunk0012.csv"
       }
     },
     "predictions": [
@@ -566,7 +500,7 @@
             "to_name": "ts",
             "origin": "manual",
             "value": {
-              "start": 160000,
+              "start": 165000,
               "end": 165779,
               "instant": false,
               "timeserieslabels": [
@@ -582,35 +516,6 @@
             "origin": "manual",
             "value": {
               "start": 165779,
-              "end": 170000,
-              "instant": false,
-              "timeserieslabels": [
-                "wr"
-              ]
-            }
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "data": {
-      "ts": {
-        "url": "https://kinglotdke.github.io/horse-imu-labeling/horse01/chunks/horse01_chunk0018.csv"
-      }
-    },
-    "predictions": [
-      {
-        "model_version": "init",
-        "result": [
-          {
-            "id": "r25",
-            "type": "timeserieslabels",
-            "from_name": "label",
-            "to_name": "ts",
-            "origin": "manual",
-            "value": {
-              "start": 170000,
               "end": 171250,
               "instant": false,
               "timeserieslabels": [
@@ -619,7 +524,7 @@
             }
           },
           {
-            "id": "r26",
+            "id": "r25",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -634,7 +539,7 @@
             }
           },
           {
-            "id": "r27",
+            "id": "r26",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -649,7 +554,7 @@
             }
           },
           {
-            "id": "r28",
+            "id": "r27",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -664,7 +569,7 @@
             }
           },
           {
-            "id": "r29",
+            "id": "r28",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -679,7 +584,7 @@
             }
           },
           {
-            "id": "r30",
+            "id": "r29",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -694,7 +599,7 @@
             }
           },
           {
-            "id": "r31",
+            "id": "r30",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -709,7 +614,7 @@
             }
           },
           {
-            "id": "r32",
+            "id": "r31",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -724,7 +629,7 @@
             }
           },
           {
-            "id": "r33",
+            "id": "r32",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -739,7 +644,7 @@
             }
           },
           {
-            "id": "r34",
+            "id": "r33",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -754,7 +659,7 @@
             }
           },
           {
-            "id": "r35",
+            "id": "r34",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -775,7 +680,7 @@
   {
     "data": {
       "ts": {
-        "url": "https://kinglotdke.github.io/horse-imu-labeling/horse01/chunks/horse01_chunk0019.csv"
+        "url": "https://kinglotdke.github.io/horse-imu-labeling/horse01/chunks/horse01_chunk0013.csv"
       }
     },
     "predictions": [
@@ -783,7 +688,7 @@
         "model_version": "init",
         "result": [
           {
-            "id": "r36",
+            "id": "r35",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -798,7 +703,7 @@
             }
           },
           {
-            "id": "r37",
+            "id": "r36",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -813,7 +718,7 @@
             }
           },
           {
-            "id": "r38",
+            "id": "r37",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -828,7 +733,7 @@
             }
           },
           {
-            "id": "r39",
+            "id": "r38",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -843,7 +748,7 @@
             }
           },
           {
-            "id": "r40",
+            "id": "r39",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -858,7 +763,7 @@
             }
           },
           {
-            "id": "r41",
+            "id": "r40",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -873,7 +778,7 @@
             }
           },
           {
-            "id": "r42",
+            "id": "r41",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -888,7 +793,7 @@
             }
           },
           {
-            "id": "r43",
+            "id": "r42",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -903,7 +808,7 @@
             }
           },
           {
-            "id": "r44",
+            "id": "r43",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -918,7 +823,7 @@
             }
           },
           {
-            "id": "r45",
+            "id": "r44",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -933,42 +838,13 @@
             }
           },
           {
-            "id": "r46",
+            "id": "r45",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
             "origin": "manual",
             "value": {
               "start": 188641,
-              "end": 190000,
-              "instant": false,
-              "timeserieslabels": [
-                "ccr"
-              ]
-            }
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "data": {
-      "ts": {
-        "url": "https://kinglotdke.github.io/horse-imu-labeling/horse01/chunks/horse01_chunk0020.csv"
-      }
-    },
-    "predictions": [
-      {
-        "model_version": "init",
-        "result": [
-          {
-            "id": "r47",
-            "type": "timeserieslabels",
-            "from_name": "label",
-            "to_name": "ts",
-            "origin": "manual",
-            "value": {
-              "start": 190000,
               "end": 191666,
               "instant": false,
               "timeserieslabels": [
@@ -977,7 +853,7 @@
             }
           },
           {
-            "id": "r48",
+            "id": "r46",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -992,7 +868,7 @@
             }
           },
           {
-            "id": "r49",
+            "id": "r47",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -1007,7 +883,7 @@
             }
           },
           {
-            "id": "r50",
+            "id": "r48",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -1022,7 +898,7 @@
             }
           },
           {
-            "id": "r51",
+            "id": "r49",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -1037,7 +913,7 @@
             }
           },
           {
-            "id": "r52",
+            "id": "r50",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -1052,7 +928,7 @@
             }
           },
           {
-            "id": "r53",
+            "id": "r51",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -1067,7 +943,7 @@
             }
           },
           {
-            "id": "r54",
+            "id": "r52",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -1082,7 +958,7 @@
             }
           },
           {
-            "id": "r55",
+            "id": "r53",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -1097,7 +973,7 @@
             }
           },
           {
-            "id": "r56",
+            "id": "r54",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -1112,7 +988,7 @@
             }
           },
           {
-            "id": "r57",
+            "id": "r55",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -1127,7 +1003,7 @@
             }
           },
           {
-            "id": "r58",
+            "id": "r56",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -1142,7 +1018,7 @@
             }
           },
           {
-            "id": "r59",
+            "id": "r57",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -1157,7 +1033,7 @@
             }
           },
           {
-            "id": "r60",
+            "id": "r58",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -1172,7 +1048,7 @@
             }
           },
           {
-            "id": "r61",
+            "id": "r59",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -1187,7 +1063,7 @@
             }
           },
           {
-            "id": "r62",
+            "id": "r60",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -1202,7 +1078,7 @@
             }
           },
           {
-            "id": "r63",
+            "id": "r61",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -1217,7 +1093,7 @@
             }
           },
           {
-            "id": "r64",
+            "id": "r62",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -1232,13 +1108,42 @@
             }
           },
           {
-            "id": "r65",
+            "id": "r63",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
             "origin": "manual",
             "value": {
               "start": 194362,
+              "end": 195000,
+              "instant": false,
+              "timeserieslabels": [
+                "ccl"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "ts": {
+        "url": "https://kinglotdke.github.io/horse-imu-labeling/horse01/chunks/horse01_chunk0014.csv"
+      }
+    },
+    "predictions": [
+      {
+        "model_version": "init",
+        "result": [
+          {
+            "id": "r64",
+            "type": "timeserieslabels",
+            "from_name": "label",
+            "to_name": "ts",
+            "origin": "manual",
+            "value": {
+              "start": 195000,
               "end": 195808,
               "instant": false,
               "timeserieslabels": [
@@ -1247,7 +1152,7 @@
             }
           },
           {
-            "id": "r66",
+            "id": "r65",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -1262,7 +1167,7 @@
             }
           },
           {
-            "id": "r67",
+            "id": "r66",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -1277,7 +1182,7 @@
             }
           },
           {
-            "id": "r68",
+            "id": "r67",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -1292,7 +1197,7 @@
             }
           },
           {
-            "id": "r69",
+            "id": "r68",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -1307,7 +1212,7 @@
             }
           },
           {
-            "id": "r70",
+            "id": "r69",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -1322,7 +1227,7 @@
             }
           },
           {
-            "id": "r71",
+            "id": "r70",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -1337,7 +1242,7 @@
             }
           },
           {
-            "id": "r72",
+            "id": "r71",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -1352,7 +1257,7 @@
             }
           },
           {
-            "id": "r73",
+            "id": "r72",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -1367,7 +1272,7 @@
             }
           },
           {
-            "id": "r74",
+            "id": "r73",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -1382,7 +1287,7 @@
             }
           },
           {
-            "id": "r75",
+            "id": "r74",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -1397,7 +1302,7 @@
             }
           },
           {
-            "id": "r76",
+            "id": "r75",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -1412,7 +1317,7 @@
             }
           },
           {
-            "id": "r77",
+            "id": "r76",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -1427,7 +1332,7 @@
             }
           },
           {
-            "id": "r78",
+            "id": "r77",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -1442,7 +1347,7 @@
             }
           },
           {
-            "id": "r79",
+            "id": "r78",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -1457,7 +1362,7 @@
             }
           },
           {
-            "id": "r80",
+            "id": "r79",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -1472,7 +1377,7 @@
             }
           },
           {
-            "id": "r81",
+            "id": "r80",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -1487,7 +1392,7 @@
             }
           },
           {
-            "id": "r82",
+            "id": "r81",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -1502,7 +1407,7 @@
             }
           },
           {
-            "id": "r83",
+            "id": "r82",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -1517,7 +1422,7 @@
             }
           },
           {
-            "id": "r84",
+            "id": "r83",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -1532,7 +1437,7 @@
             }
           },
           {
-            "id": "r85",
+            "id": "r84",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -1547,7 +1452,7 @@
             }
           },
           {
-            "id": "r86",
+            "id": "r85",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -1562,7 +1467,7 @@
             }
           },
           {
-            "id": "r87",
+            "id": "r86",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -1577,7 +1482,7 @@
             }
           },
           {
-            "id": "r88",
+            "id": "r87",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -1592,7 +1497,7 @@
             }
           },
           {
-            "id": "r89",
+            "id": "r88",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -1607,7 +1512,7 @@
             }
           },
           {
-            "id": "r90",
+            "id": "r89",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -1622,7 +1527,7 @@
             }
           },
           {
-            "id": "r91",
+            "id": "r90",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -1637,7 +1542,7 @@
             }
           },
           {
-            "id": "r92",
+            "id": "r91",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -1652,7 +1557,7 @@
             }
           },
           {
-            "id": "r93",
+            "id": "r92",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -1667,7 +1572,7 @@
             }
           },
           {
-            "id": "r94",
+            "id": "r93",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -1682,42 +1587,13 @@
             }
           },
           {
-            "id": "r95",
+            "id": "r94",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
             "origin": "manual",
             "value": {
               "start": 198554,
-              "end": 200000,
-              "instant": false,
-              "timeserieslabels": [
-                "ccl"
-              ]
-            }
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "data": {
-      "ts": {
-        "url": "https://kinglotdke.github.io/horse-imu-labeling/horse01/chunks/horse01_chunk0021.csv"
-      }
-    },
-    "predictions": [
-      {
-        "model_version": "init",
-        "result": [
-          {
-            "id": "r96",
-            "type": "timeserieslabels",
-            "from_name": "label",
-            "to_name": "ts",
-            "origin": "manual",
-            "value": {
-              "start": 200000,
               "end": 200134,
               "instant": false,
               "timeserieslabels": [
@@ -1726,7 +1602,7 @@
             }
           },
           {
-            "id": "r97",
+            "id": "r95",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -1741,7 +1617,7 @@
             }
           },
           {
-            "id": "r98",
+            "id": "r96",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -1756,7 +1632,7 @@
             }
           },
           {
-            "id": "r99",
+            "id": "r97",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -1771,7 +1647,7 @@
             }
           },
           {
-            "id": "r100",
+            "id": "r98",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -1786,7 +1662,7 @@
             }
           },
           {
-            "id": "r101",
+            "id": "r99",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -1801,7 +1677,7 @@
             }
           },
           {
-            "id": "r102",
+            "id": "r100",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -1816,7 +1692,7 @@
             }
           },
           {
-            "id": "r103",
+            "id": "r101",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -1831,7 +1707,7 @@
             }
           },
           {
-            "id": "r104",
+            "id": "r102",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -1846,7 +1722,7 @@
             }
           },
           {
-            "id": "r105",
+            "id": "r103",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -1861,7 +1737,7 @@
             }
           },
           {
-            "id": "r106",
+            "id": "r104",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -1876,7 +1752,7 @@
             }
           },
           {
-            "id": "r107",
+            "id": "r105",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -1891,7 +1767,7 @@
             }
           },
           {
-            "id": "r108",
+            "id": "r106",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -1906,7 +1782,7 @@
             }
           },
           {
-            "id": "r109",
+            "id": "r107",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -1921,7 +1797,7 @@
             }
           },
           {
-            "id": "r110",
+            "id": "r108",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -1936,7 +1812,7 @@
             }
           },
           {
-            "id": "r111",
+            "id": "r109",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -1951,7 +1827,7 @@
             }
           },
           {
-            "id": "r112",
+            "id": "r110",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -1966,7 +1842,7 @@
             }
           },
           {
-            "id": "r113",
+            "id": "r111",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -1981,7 +1857,7 @@
             }
           },
           {
-            "id": "r114",
+            "id": "r112",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -1996,7 +1872,7 @@
             }
           },
           {
-            "id": "r115",
+            "id": "r113",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -2011,7 +1887,7 @@
             }
           },
           {
-            "id": "r116",
+            "id": "r114",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -2026,7 +1902,7 @@
             }
           },
           {
-            "id": "r117",
+            "id": "r115",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -2041,7 +1917,7 @@
             }
           },
           {
-            "id": "r118",
+            "id": "r116",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -2056,7 +1932,7 @@
             }
           },
           {
-            "id": "r119",
+            "id": "r117",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -2071,7 +1947,7 @@
             }
           },
           {
-            "id": "r120",
+            "id": "r118",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -2086,7 +1962,7 @@
             }
           },
           {
-            "id": "r121",
+            "id": "r119",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -2101,7 +1977,7 @@
             }
           },
           {
-            "id": "r122",
+            "id": "r120",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -2116,7 +1992,7 @@
             }
           },
           {
-            "id": "r123",
+            "id": "r121",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -2137,7 +2013,7 @@
   {
     "data": {
       "ts": {
-        "url": "https://kinglotdke.github.io/horse-imu-labeling/horse01/chunks/horse01_chunk0022.csv"
+        "url": "https://kinglotdke.github.io/horse-imu-labeling/horse01/chunks/horse01_chunk0015.csv"
       }
     },
     "predictions": [
@@ -2145,7 +2021,7 @@
         "model_version": "init",
         "result": [
           {
-            "id": "r124",
+            "id": "r122",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -2160,7 +2036,7 @@
             }
           },
           {
-            "id": "r125",
+            "id": "r123",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -2175,7 +2051,7 @@
             }
           },
           {
-            "id": "r126",
+            "id": "r124",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -2190,7 +2066,7 @@
             }
           },
           {
-            "id": "r127",
+            "id": "r125",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -2205,7 +2081,7 @@
             }
           },
           {
-            "id": "r128",
+            "id": "r126",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -2220,7 +2096,7 @@
             }
           },
           {
-            "id": "r129",
+            "id": "r127",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -2235,14 +2111,14 @@
             }
           },
           {
-            "id": "r130",
+            "id": "r128",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
             "origin": "manual",
             "value": {
               "start": 216174,
-              "end": 220000,
+              "end": 225000,
               "instant": false,
               "timeserieslabels": [
                 "cwl"
@@ -2256,7 +2132,7 @@
   {
     "data": {
       "ts": {
-        "url": "https://kinglotdke.github.io/horse-imu-labeling/horse01/chunks/horse01_chunk0023.csv"
+        "url": "https://kinglotdke.github.io/horse-imu-labeling/horse01/chunks/horse01_chunk0016.csv"
       }
     },
     "predictions": [
@@ -2264,13 +2140,13 @@
         "model_version": "init",
         "result": [
           {
-            "id": "r131",
+            "id": "r129",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
             "origin": "manual",
             "value": {
-              "start": 220000,
+              "start": 225000,
               "end": 229510,
               "instant": false,
               "timeserieslabels": [
@@ -2279,42 +2155,13 @@
             }
           },
           {
-            "id": "r132",
+            "id": "r130",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
             "origin": "manual",
             "value": {
               "start": 229510,
-              "end": 230000,
-              "instant": false,
-              "timeserieslabels": [
-                "cwr"
-              ]
-            }
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "data": {
-      "ts": {
-        "url": "https://kinglotdke.github.io/horse-imu-labeling/horse01/chunks/horse01_chunk0024.csv"
-      }
-    },
-    "predictions": [
-      {
-        "model_version": "init",
-        "result": [
-          {
-            "id": "r133",
-            "type": "timeserieslabels",
-            "from_name": "label",
-            "to_name": "ts",
-            "origin": "manual",
-            "value": {
-              "start": 230000,
               "end": 231226,
               "instant": false,
               "timeserieslabels": [
@@ -2323,7 +2170,7 @@
             }
           },
           {
-            "id": "r134",
+            "id": "r131",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -2338,7 +2185,7 @@
             }
           },
           {
-            "id": "r135",
+            "id": "r132",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -2353,7 +2200,7 @@
             }
           },
           {
-            "id": "r136",
+            "id": "r133",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -2368,7 +2215,7 @@
             }
           },
           {
-            "id": "r137",
+            "id": "r134",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -2383,7 +2230,7 @@
             }
           },
           {
-            "id": "r138",
+            "id": "r135",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -2398,7 +2245,7 @@
             }
           },
           {
-            "id": "r139",
+            "id": "r136",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -2413,7 +2260,7 @@
             }
           },
           {
-            "id": "r140",
+            "id": "r137",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -2434,7 +2281,7 @@
   {
     "data": {
       "ts": {
-        "url": "https://kinglotdke.github.io/horse-imu-labeling/horse01/chunks/horse01_chunk0025.csv"
+        "url": "https://kinglotdke.github.io/horse-imu-labeling/horse01/chunks/horse01_chunk0017.csv"
       }
     },
     "predictions": [
@@ -2442,7 +2289,7 @@
         "model_version": "init",
         "result": [
           {
-            "id": "r141",
+            "id": "r138",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -2457,7 +2304,7 @@
             }
           },
           {
-            "id": "r142",
+            "id": "r139",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -2472,7 +2319,7 @@
             }
           },
           {
-            "id": "r143",
+            "id": "r140",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -2487,7 +2334,7 @@
             }
           },
           {
-            "id": "r144",
+            "id": "r141",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -2502,7 +2349,7 @@
             }
           },
           {
-            "id": "r145",
+            "id": "r142",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -2517,7 +2364,7 @@
             }
           },
           {
-            "id": "r146",
+            "id": "r143",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -2532,7 +2379,7 @@
             }
           },
           {
-            "id": "r147",
+            "id": "r144",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -2547,7 +2394,7 @@
             }
           },
           {
-            "id": "r148",
+            "id": "r145",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -2562,7 +2409,7 @@
             }
           },
           {
-            "id": "r149",
+            "id": "r146",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -2577,7 +2424,7 @@
             }
           },
           {
-            "id": "r150",
+            "id": "r147",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -2592,7 +2439,7 @@
             }
           },
           {
-            "id": "r151",
+            "id": "r148",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -2607,7 +2454,7 @@
             }
           },
           {
-            "id": "r152",
+            "id": "r149",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -2622,7 +2469,7 @@
             }
           },
           {
-            "id": "r153",
+            "id": "r150",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -2637,42 +2484,13 @@
             }
           },
           {
-            "id": "r154",
+            "id": "r151",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
             "origin": "manual",
             "value": {
               "start": 249632,
-              "end": 250000,
-              "instant": false,
-              "timeserieslabels": [
-                "cw"
-              ]
-            }
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "data": {
-      "ts": {
-        "url": "https://kinglotdke.github.io/horse-imu-labeling/horse01/chunks/horse01_chunk0026.csv"
-      }
-    },
-    "predictions": [
-      {
-        "model_version": "init",
-        "result": [
-          {
-            "id": "r155",
-            "type": "timeserieslabels",
-            "from_name": "label",
-            "to_name": "ts",
-            "origin": "manual",
-            "value": {
-              "start": 250000,
               "end": 250566,
               "instant": false,
               "timeserieslabels": [
@@ -2681,7 +2499,7 @@
             }
           },
           {
-            "id": "r156",
+            "id": "r152",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -2696,7 +2514,7 @@
             }
           },
           {
-            "id": "r157",
+            "id": "r153",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -2711,13 +2529,42 @@
             }
           },
           {
-            "id": "r158",
+            "id": "r154",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
             "origin": "manual",
             "value": {
               "start": 254264,
+              "end": 255000,
+              "instant": false,
+              "timeserieslabels": [
+                "ccl"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "ts": {
+        "url": "https://kinglotdke.github.io/horse-imu-labeling/horse01/chunks/horse01_chunk0018.csv"
+      }
+    },
+    "predictions": [
+      {
+        "model_version": "init",
+        "result": [
+          {
+            "id": "r155",
+            "type": "timeserieslabels",
+            "from_name": "label",
+            "to_name": "ts",
+            "origin": "manual",
+            "value": {
+              "start": 255000,
               "end": 255031,
               "instant": false,
               "timeserieslabels": [
@@ -2726,7 +2573,7 @@
             }
           },
           {
-            "id": "r159",
+            "id": "r156",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -2741,7 +2588,7 @@
             }
           },
           {
-            "id": "r160",
+            "id": "r157",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -2756,7 +2603,7 @@
             }
           },
           {
-            "id": "r161",
+            "id": "r158",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -2771,7 +2618,7 @@
             }
           },
           {
-            "id": "r162",
+            "id": "r159",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -2786,7 +2633,7 @@
             }
           },
           {
-            "id": "r163",
+            "id": "r160",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -2801,7 +2648,7 @@
             }
           },
           {
-            "id": "r164",
+            "id": "r161",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -2816,7 +2663,7 @@
             }
           },
           {
-            "id": "r165",
+            "id": "r162",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -2831,7 +2678,7 @@
             }
           },
           {
-            "id": "r166",
+            "id": "r163",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -2846,7 +2693,7 @@
             }
           },
           {
-            "id": "r167",
+            "id": "r164",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -2861,42 +2708,13 @@
             }
           },
           {
-            "id": "r168",
+            "id": "r165",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
             "origin": "manual",
             "value": {
               "start": 259800,
-              "end": 260000,
-              "instant": false,
-              "timeserieslabels": [
-                "hpcr"
-              ]
-            }
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "data": {
-      "ts": {
-        "url": "https://kinglotdke.github.io/horse-imu-labeling/horse01/chunks/horse01_chunk0027.csv"
-      }
-    },
-    "predictions": [
-      {
-        "model_version": "init",
-        "result": [
-          {
-            "id": "r169",
-            "type": "timeserieslabels",
-            "from_name": "label",
-            "to_name": "ts",
-            "origin": "manual",
-            "value": {
-              "start": 260000,
               "end": 260306,
               "instant": false,
               "timeserieslabels": [
@@ -2905,7 +2723,7 @@
             }
           },
           {
-            "id": "r170",
+            "id": "r166",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -2920,7 +2738,7 @@
             }
           },
           {
-            "id": "r171",
+            "id": "r167",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -2935,7 +2753,7 @@
             }
           },
           {
-            "id": "r172",
+            "id": "r168",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -2950,7 +2768,7 @@
             }
           },
           {
-            "id": "r173",
+            "id": "r169",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -2965,7 +2783,7 @@
             }
           },
           {
-            "id": "r174",
+            "id": "r170",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -2980,7 +2798,7 @@
             }
           },
           {
-            "id": "r175",
+            "id": "r171",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -2995,7 +2813,7 @@
             }
           },
           {
-            "id": "r176",
+            "id": "r172",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -3010,7 +2828,7 @@
             }
           },
           {
-            "id": "r177",
+            "id": "r173",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -3025,7 +2843,7 @@
             }
           },
           {
-            "id": "r178",
+            "id": "r174",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -3040,7 +2858,7 @@
             }
           },
           {
-            "id": "r179",
+            "id": "r175",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -3055,7 +2873,7 @@
             }
           },
           {
-            "id": "r180",
+            "id": "r176",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -3070,7 +2888,7 @@
             }
           },
           {
-            "id": "r181",
+            "id": "r177",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -3085,7 +2903,7 @@
             }
           },
           {
-            "id": "r182",
+            "id": "r178",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -3100,7 +2918,7 @@
             }
           },
           {
-            "id": "r183",
+            "id": "r179",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -3115,7 +2933,7 @@
             }
           },
           {
-            "id": "r184",
+            "id": "r180",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -3130,7 +2948,7 @@
             }
           },
           {
-            "id": "r185",
+            "id": "r181",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -3145,7 +2963,7 @@
             }
           },
           {
-            "id": "r186",
+            "id": "r182",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -3160,7 +2978,7 @@
             }
           },
           {
-            "id": "r187",
+            "id": "r183",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -3175,7 +2993,7 @@
             }
           },
           {
-            "id": "r188",
+            "id": "r184",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -3190,7 +3008,7 @@
             }
           },
           {
-            "id": "r189",
+            "id": "r185",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -3205,7 +3023,7 @@
             }
           },
           {
-            "id": "r190",
+            "id": "r186",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -3220,7 +3038,7 @@
             }
           },
           {
-            "id": "r191",
+            "id": "r187",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -3235,7 +3053,7 @@
             }
           },
           {
-            "id": "r192",
+            "id": "r188",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -3250,7 +3068,7 @@
             }
           },
           {
-            "id": "r193",
+            "id": "r189",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -3265,7 +3083,7 @@
             }
           },
           {
-            "id": "r194",
+            "id": "r190",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -3280,7 +3098,7 @@
             }
           },
           {
-            "id": "r195",
+            "id": "r191",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -3295,7 +3113,7 @@
             }
           },
           {
-            "id": "r196",
+            "id": "r192",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -3310,7 +3128,7 @@
             }
           },
           {
-            "id": "r197",
+            "id": "r193",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -3325,7 +3143,7 @@
             }
           },
           {
-            "id": "r198",
+            "id": "r194",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -3340,7 +3158,7 @@
             }
           },
           {
-            "id": "r199",
+            "id": "r195",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -3361,7 +3179,7 @@
   {
     "data": {
       "ts": {
-        "url": "https://kinglotdke.github.io/horse-imu-labeling/horse01/chunks/horse01_chunk0028.csv"
+        "url": "https://kinglotdke.github.io/horse-imu-labeling/horse01/chunks/horse01_chunk0019.csv"
       }
     },
     "predictions": [
@@ -3369,7 +3187,7 @@
         "model_version": "init",
         "result": [
           {
-            "id": "r200",
+            "id": "r196",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -3384,7 +3202,7 @@
             }
           },
           {
-            "id": "r201",
+            "id": "r197",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -3399,7 +3217,7 @@
             }
           },
           {
-            "id": "r202",
+            "id": "r198",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -3414,7 +3232,7 @@
             }
           },
           {
-            "id": "r203",
+            "id": "r199",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -3429,7 +3247,7 @@
             }
           },
           {
-            "id": "r204",
+            "id": "r200",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -3444,7 +3262,7 @@
             }
           },
           {
-            "id": "r205",
+            "id": "r201",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -3459,42 +3277,13 @@
             }
           },
           {
-            "id": "r206",
+            "id": "r202",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
             "origin": "manual",
             "value": {
               "start": 274178,
-              "end": 280000,
-              "instant": false,
-              "timeserieslabels": [
-                "wr"
-              ]
-            }
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "data": {
-      "ts": {
-        "url": "https://kinglotdke.github.io/horse-imu-labeling/horse01/chunks/horse01_chunk0029.csv"
-      }
-    },
-    "predictions": [
-      {
-        "model_version": "init",
-        "result": [
-          {
-            "id": "r207",
-            "type": "timeserieslabels",
-            "from_name": "label",
-            "to_name": "ts",
-            "origin": "manual",
-            "value": {
-              "start": 280000,
               "end": 283537,
               "instant": false,
               "timeserieslabels": [
@@ -3503,7 +3292,7 @@
             }
           },
           {
-            "id": "r208",
+            "id": "r203",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -3518,7 +3307,7 @@
             }
           },
           {
-            "id": "r209",
+            "id": "r204",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -3533,32 +3322,17 @@
             }
           },
           {
-            "id": "r210",
+            "id": "r205",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
             "origin": "manual",
             "value": {
               "start": 284508,
-              "end": 289787,
+              "end": 285000,
               "instant": false,
               "timeserieslabels": [
                 "tr"
-              ]
-            }
-          },
-          {
-            "id": "r211",
-            "type": "timeserieslabels",
-            "from_name": "label",
-            "to_name": "ts",
-            "origin": "manual",
-            "value": {
-              "start": 289787,
-              "end": 290000,
-              "instant": false,
-              "timeserieslabels": [
-                "tl"
               ]
             }
           }
@@ -3569,7 +3343,7 @@
   {
     "data": {
       "ts": {
-        "url": "https://kinglotdke.github.io/horse-imu-labeling/horse01/chunks/horse01_chunk0030.csv"
+        "url": "https://kinglotdke.github.io/horse-imu-labeling/horse01/chunks/horse01_chunk0020.csv"
       }
     },
     "predictions": [
@@ -3577,13 +3351,28 @@
         "model_version": "init",
         "result": [
           {
-            "id": "r212",
+            "id": "r206",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
             "origin": "manual",
             "value": {
-              "start": 290000,
+              "start": 285000,
+              "end": 289787,
+              "instant": false,
+              "timeserieslabels": [
+                "tr"
+              ]
+            }
+          },
+          {
+            "id": "r207",
+            "type": "timeserieslabels",
+            "from_name": "label",
+            "to_name": "ts",
+            "origin": "manual",
+            "value": {
+              "start": 289787,
               "end": 291798,
               "instant": false,
               "timeserieslabels": [
@@ -3592,7 +3381,7 @@
             }
           },
           {
-            "id": "r213",
+            "id": "r208",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -3613,7 +3402,7 @@
   {
     "data": {
       "ts": {
-        "url": "https://kinglotdke.github.io/horse-imu-labeling/horse01/chunks/horse01_chunk0031.csv"
+        "url": "https://kinglotdke.github.io/horse-imu-labeling/horse01/chunks/horse01_chunk0021.csv"
       }
     },
     "predictions": [
@@ -3621,42 +3410,13 @@
         "model_version": "init",
         "result": [
           {
-            "id": "r214",
+            "id": "r209",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
             "origin": "manual",
             "value": {
               "start": 300000,
-              "end": 310000,
-              "instant": false,
-              "timeserieslabels": [
-                "wl"
-              ]
-            }
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "data": {
-      "ts": {
-        "url": "https://kinglotdke.github.io/horse-imu-labeling/horse01/chunks/horse01_chunk0032.csv"
-      }
-    },
-    "predictions": [
-      {
-        "model_version": "init",
-        "result": [
-          {
-            "id": "r215",
-            "type": "timeserieslabels",
-            "from_name": "label",
-            "to_name": "ts",
-            "origin": "manual",
-            "value": {
-              "start": 310000,
               "end": 310906,
               "instant": false,
               "timeserieslabels": [
@@ -3665,7 +3425,7 @@
             }
           },
           {
-            "id": "r216",
+            "id": "r210",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -3680,7 +3440,7 @@
             }
           },
           {
-            "id": "r217",
+            "id": "r211",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -3695,7 +3455,7 @@
             }
           },
           {
-            "id": "r218",
+            "id": "r212",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
@@ -3710,14 +3470,14 @@
             }
           },
           {
-            "id": "r219",
+            "id": "r213",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
             "origin": "manual",
             "value": {
               "start": 312810,
-              "end": 320000,
+              "end": 315000,
               "instant": false,
               "timeserieslabels": [
                 "endtest"
@@ -3731,7 +3491,7 @@
   {
     "data": {
       "ts": {
-        "url": "https://kinglotdke.github.io/horse-imu-labeling/horse01/chunks/horse01_chunk0033.csv"
+        "url": "https://kinglotdke.github.io/horse-imu-labeling/horse01/chunks/horse01_chunk0022.csv"
       }
     },
     "predictions": [
@@ -3739,17 +3499,32 @@
         "model_version": "init",
         "result": [
           {
-            "id": "r220",
+            "id": "r214",
             "type": "timeserieslabels",
             "from_name": "label",
             "to_name": "ts",
             "origin": "manual",
             "value": {
-              "start": 320000,
+              "start": 315000,
               "end": 321001,
               "instant": false,
               "timeserieslabels": [
                 "endtest"
+              ]
+            }
+          },
+          {
+            "id": "r215",
+            "type": "timeserieslabels",
+            "from_name": "label",
+            "to_name": "ts",
+            "origin": "manual",
+            "value": {
+              "start": 321001,
+              "end": 327921,
+              "instant": false,
+              "timeserieslabels": [
+                "unlabeled"
               ]
             }
           }
