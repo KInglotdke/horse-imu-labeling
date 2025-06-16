@@ -1,0 +1,1951 @@
+[
+  {
+    "data": {
+      "ts": {
+        "url": "https://kinglotdke.github.io/horse-imu-labeling/horse13/chunks/horse13_chunk0001.csv"
+      }
+    },
+    "predictions": [
+      {
+        "model_version": "init",
+        "result": [
+          {
+            "id": "r1",
+            "type": "timeserieslabels",
+            "from_name": "label",
+            "to_name": "ts",
+            "origin": "manual",
+            "value": {
+              "start": 0,
+              "end": 19898,
+              "instant": false,
+              "timeserieslabels": [
+                "unlabeled"
+              ]
+            }
+          },
+          {
+            "id": "r2",
+            "type": "timeserieslabels",
+            "from_name": "label",
+            "to_name": "ts",
+            "origin": "manual",
+            "value": {
+              "start": 19898,
+              "end": 20000,
+              "instant": false,
+              "timeserieslabels": [
+                "tt"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "ts": {
+        "url": "https://kinglotdke.github.io/horse-imu-labeling/horse13/chunks/horse13_chunk0002.csv"
+      }
+    },
+    "predictions": [
+      {
+        "model_version": "init",
+        "result": [
+          {
+            "id": "r3",
+            "type": "timeserieslabels",
+            "from_name": "label",
+            "to_name": "ts",
+            "origin": "manual",
+            "value": {
+              "start": 20000,
+              "end": 27243,
+              "instant": false,
+              "timeserieslabels": [
+                "tt"
+              ]
+            }
+          },
+          {
+            "id": "r4",
+            "type": "timeserieslabels",
+            "from_name": "label",
+            "to_name": "ts",
+            "origin": "manual",
+            "value": {
+              "start": 27243,
+              "end": 28182,
+              "instant": false,
+              "timeserieslabels": [
+                "fw"
+              ]
+            }
+          },
+          {
+            "id": "r5",
+            "type": "timeserieslabels",
+            "from_name": "label",
+            "to_name": "ts",
+            "origin": "manual",
+            "value": {
+              "start": 28182,
+              "end": 40000,
+              "instant": false,
+              "timeserieslabels": [
+                "wl"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "ts": {
+        "url": "https://kinglotdke.github.io/horse-imu-labeling/horse13/chunks/horse13_chunk0003.csv"
+      }
+    },
+    "predictions": [
+      {
+        "model_version": "init",
+        "result": [
+          {
+            "id": "r6",
+            "type": "timeserieslabels",
+            "from_name": "label",
+            "to_name": "ts",
+            "origin": "manual",
+            "value": {
+              "start": 40000,
+              "end": 48404,
+              "instant": false,
+              "timeserieslabels": [
+                "wl"
+              ]
+            }
+          },
+          {
+            "id": "r7",
+            "type": "timeserieslabels",
+            "from_name": "label",
+            "to_name": "ts",
+            "origin": "manual",
+            "value": {
+              "start": 48404,
+              "end": 60000,
+              "instant": false,
+              "timeserieslabels": [
+                "wr"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "ts": {
+        "url": "https://kinglotdke.github.io/horse-imu-labeling/horse13/chunks/horse13_chunk0004.csv"
+      }
+    },
+    "predictions": [
+      {
+        "model_version": "init",
+        "result": [
+          {
+            "id": "r8",
+            "type": "timeserieslabels",
+            "from_name": "label",
+            "to_name": "ts",
+            "origin": "manual",
+            "value": {
+              "start": 60000,
+              "end": 62703,
+              "instant": false,
+              "timeserieslabels": [
+                "wr"
+              ]
+            }
+          },
+          {
+            "id": "r9",
+            "type": "timeserieslabels",
+            "from_name": "label",
+            "to_name": "ts",
+            "origin": "manual",
+            "value": {
+              "start": 62703,
+              "end": 78463,
+              "instant": false,
+              "timeserieslabels": [
+                "tr"
+              ]
+            }
+          },
+          {
+            "id": "r10",
+            "type": "timeserieslabels",
+            "from_name": "label",
+            "to_name": "ts",
+            "origin": "manual",
+            "value": {
+              "start": 78463,
+              "end": 80000,
+              "instant": false,
+              "timeserieslabels": [
+                "tl"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "ts": {
+        "url": "https://kinglotdke.github.io/horse-imu-labeling/horse13/chunks/horse13_chunk0005.csv"
+      }
+    },
+    "predictions": [
+      {
+        "model_version": "init",
+        "result": [
+          {
+            "id": "r11",
+            "type": "timeserieslabels",
+            "from_name": "label",
+            "to_name": "ts",
+            "origin": "manual",
+            "value": {
+              "start": 80000,
+              "end": 91791,
+              "instant": false,
+              "timeserieslabels": [
+                "tl"
+              ]
+            }
+          },
+          {
+            "id": "r12",
+            "type": "timeserieslabels",
+            "from_name": "label",
+            "to_name": "ts",
+            "origin": "manual",
+            "value": {
+              "start": 91791,
+              "end": 100000,
+              "instant": false,
+              "timeserieslabels": [
+                "cl"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "ts": {
+        "url": "https://kinglotdke.github.io/horse-imu-labeling/horse13/chunks/horse13_chunk0006.csv"
+      }
+    },
+    "predictions": [
+      {
+        "model_version": "init",
+        "result": [
+          {
+            "id": "r13",
+            "type": "timeserieslabels",
+            "from_name": "label",
+            "to_name": "ts",
+            "origin": "manual",
+            "value": {
+              "start": 100000,
+              "end": 105220,
+              "instant": false,
+              "timeserieslabels": [
+                "cl"
+              ]
+            }
+          },
+          {
+            "id": "r14",
+            "type": "timeserieslabels",
+            "from_name": "label",
+            "to_name": "ts",
+            "origin": "manual",
+            "value": {
+              "start": 105220,
+              "end": 105252,
+              "instant": false,
+              "timeserieslabels": [
+                "fc"
+              ]
+            }
+          },
+          {
+            "id": "r15",
+            "type": "timeserieslabels",
+            "from_name": "label",
+            "to_name": "ts",
+            "origin": "manual",
+            "value": {
+              "start": 105252,
+              "end": 118023,
+              "instant": false,
+              "timeserieslabels": [
+                "cr"
+              ]
+            }
+          },
+          {
+            "id": "r16",
+            "type": "timeserieslabels",
+            "from_name": "label",
+            "to_name": "ts",
+            "origin": "manual",
+            "value": {
+              "start": 118023,
+              "end": 119097,
+              "instant": false,
+              "timeserieslabels": [
+                "wr"
+              ]
+            }
+          },
+          {
+            "id": "r17",
+            "type": "timeserieslabels",
+            "from_name": "label",
+            "to_name": "ts",
+            "origin": "manual",
+            "value": {
+              "start": 119097,
+              "end": 120000,
+              "instant": false,
+              "timeserieslabels": [
+                "h"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "ts": {
+        "url": "https://kinglotdke.github.io/horse-imu-labeling/horse13/chunks/horse13_chunk0007.csv"
+      }
+    },
+    "predictions": [
+      {
+        "model_version": "init",
+        "result": [
+          {
+            "id": "r18",
+            "type": "timeserieslabels",
+            "from_name": "label",
+            "to_name": "ts",
+            "origin": "manual",
+            "value": {
+              "start": 120000,
+              "end": 120532,
+              "instant": false,
+              "timeserieslabels": [
+                "h"
+              ]
+            }
+          },
+          {
+            "id": "r19",
+            "type": "timeserieslabels",
+            "from_name": "label",
+            "to_name": "ts",
+            "origin": "manual",
+            "value": {
+              "start": 120532,
+              "end": 140000,
+              "instant": false,
+              "timeserieslabels": [
+                "wr"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "ts": {
+        "url": "https://kinglotdke.github.io/horse-imu-labeling/horse13/chunks/horse13_chunk0008.csv"
+      }
+    },
+    "predictions": [
+      {
+        "model_version": "init",
+        "result": [
+          {
+            "id": "r20",
+            "type": "timeserieslabels",
+            "from_name": "label",
+            "to_name": "ts",
+            "origin": "manual",
+            "value": {
+              "start": 140000,
+              "end": 151908,
+              "instant": false,
+              "timeserieslabels": [
+                "wr"
+              ]
+            }
+          },
+          {
+            "id": "r21",
+            "type": "timeserieslabels",
+            "from_name": "label",
+            "to_name": "ts",
+            "origin": "manual",
+            "value": {
+              "start": 151908,
+              "end": 155501,
+              "instant": false,
+              "timeserieslabels": [
+                "h"
+              ]
+            }
+          },
+          {
+            "id": "r22",
+            "type": "timeserieslabels",
+            "from_name": "label",
+            "to_name": "ts",
+            "origin": "manual",
+            "value": {
+              "start": 155501,
+              "end": 155650,
+              "instant": false,
+              "timeserieslabels": [
+                "wl"
+              ]
+            }
+          },
+          {
+            "id": "r23",
+            "type": "timeserieslabels",
+            "from_name": "label",
+            "to_name": "ts",
+            "origin": "manual",
+            "value": {
+              "start": 155650,
+              "end": 158705,
+              "instant": false,
+              "timeserieslabels": [
+                "h"
+              ]
+            }
+          },
+          {
+            "id": "r24",
+            "type": "timeserieslabels",
+            "from_name": "label",
+            "to_name": "ts",
+            "origin": "manual",
+            "value": {
+              "start": 158705,
+              "end": 160000,
+              "instant": false,
+              "timeserieslabels": [
+                "wr"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "ts": {
+        "url": "https://kinglotdke.github.io/horse-imu-labeling/horse13/chunks/horse13_chunk0009.csv"
+      }
+    },
+    "predictions": [
+      {
+        "model_version": "init",
+        "result": [
+          {
+            "id": "r25",
+            "type": "timeserieslabels",
+            "from_name": "label",
+            "to_name": "ts",
+            "origin": "manual",
+            "value": {
+              "start": 160000,
+              "end": 160210,
+              "instant": false,
+              "timeserieslabels": [
+                "wr"
+              ]
+            }
+          },
+          {
+            "id": "r26",
+            "type": "timeserieslabels",
+            "from_name": "label",
+            "to_name": "ts",
+            "origin": "manual",
+            "value": {
+              "start": 160210,
+              "end": 160355,
+              "instant": false,
+              "timeserieslabels": [
+                "cr"
+              ]
+            }
+          },
+          {
+            "id": "r27",
+            "type": "timeserieslabels",
+            "from_name": "label",
+            "to_name": "ts",
+            "origin": "manual",
+            "value": {
+              "start": 160355,
+              "end": 174903,
+              "instant": false,
+              "timeserieslabels": [
+                "slr"
+              ]
+            }
+          },
+          {
+            "id": "r28",
+            "type": "timeserieslabels",
+            "from_name": "label",
+            "to_name": "ts",
+            "origin": "manual",
+            "value": {
+              "start": 174903,
+              "end": 180000,
+              "instant": false,
+              "timeserieslabels": [
+                "wr"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "ts": {
+        "url": "https://kinglotdke.github.io/horse-imu-labeling/horse13/chunks/horse13_chunk0010.csv"
+      }
+    },
+    "predictions": [
+      {
+        "model_version": "init",
+        "result": [
+          {
+            "id": "r29",
+            "type": "timeserieslabels",
+            "from_name": "label",
+            "to_name": "ts",
+            "origin": "manual",
+            "value": {
+              "start": 180000,
+              "end": 180680,
+              "instant": false,
+              "timeserieslabels": [
+                "wr"
+              ]
+            }
+          },
+          {
+            "id": "r30",
+            "type": "timeserieslabels",
+            "from_name": "label",
+            "to_name": "ts",
+            "origin": "manual",
+            "value": {
+              "start": 180680,
+              "end": 183320,
+              "instant": false,
+              "timeserieslabels": [
+                "wl"
+              ]
+            }
+          },
+          {
+            "id": "r31",
+            "type": "timeserieslabels",
+            "from_name": "label",
+            "to_name": "ts",
+            "origin": "manual",
+            "value": {
+              "start": 183320,
+              "end": 183557,
+              "instant": false,
+              "timeserieslabels": [
+                "cl"
+              ]
+            }
+          },
+          {
+            "id": "r32",
+            "type": "timeserieslabels",
+            "from_name": "label",
+            "to_name": "ts",
+            "origin": "manual",
+            "value": {
+              "start": 183557,
+              "end": 197593,
+              "instant": false,
+              "timeserieslabels": [
+                "sll"
+              ]
+            }
+          },
+          {
+            "id": "r33",
+            "type": "timeserieslabels",
+            "from_name": "label",
+            "to_name": "ts",
+            "origin": "manual",
+            "value": {
+              "start": 197593,
+              "end": 197731,
+              "instant": false,
+              "timeserieslabels": [
+                "tl"
+              ]
+            }
+          },
+          {
+            "id": "r34",
+            "type": "timeserieslabels",
+            "from_name": "label",
+            "to_name": "ts",
+            "origin": "manual",
+            "value": {
+              "start": 197731,
+              "end": 200000,
+              "instant": false,
+              "timeserieslabels": [
+                "wl"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "ts": {
+        "url": "https://kinglotdke.github.io/horse-imu-labeling/horse13/chunks/horse13_chunk0011.csv"
+      }
+    },
+    "predictions": [
+      {
+        "model_version": "init",
+        "result": [
+          {
+            "id": "r35",
+            "type": "timeserieslabels",
+            "from_name": "label",
+            "to_name": "ts",
+            "origin": "manual",
+            "value": {
+              "start": 200000,
+              "end": 202501,
+              "instant": false,
+              "timeserieslabels": [
+                "wl"
+              ]
+            }
+          },
+          {
+            "id": "r36",
+            "type": "timeserieslabels",
+            "from_name": "label",
+            "to_name": "ts",
+            "origin": "manual",
+            "value": {
+              "start": 202501,
+              "end": 210491,
+              "instant": false,
+              "timeserieslabels": [
+                "wr"
+              ]
+            }
+          },
+          {
+            "id": "r37",
+            "type": "timeserieslabels",
+            "from_name": "label",
+            "to_name": "ts",
+            "origin": "manual",
+            "value": {
+              "start": 210491,
+              "end": 210632,
+              "instant": false,
+              "timeserieslabels": [
+                "wl"
+              ]
+            }
+          },
+          {
+            "id": "r38",
+            "type": "timeserieslabels",
+            "from_name": "label",
+            "to_name": "ts",
+            "origin": "manual",
+            "value": {
+              "start": 210632,
+              "end": 211797,
+              "instant": false,
+              "timeserieslabels": [
+                "cl"
+              ]
+            }
+          },
+          {
+            "id": "r39",
+            "type": "timeserieslabels",
+            "from_name": "label",
+            "to_name": "ts",
+            "origin": "manual",
+            "value": {
+              "start": 211797,
+              "end": 211833,
+              "instant": false,
+              "timeserieslabels": [
+                "j80"
+              ]
+            }
+          },
+          {
+            "id": "r40",
+            "type": "timeserieslabels",
+            "from_name": "label",
+            "to_name": "ts",
+            "origin": "manual",
+            "value": {
+              "start": 211833,
+              "end": 213455,
+              "instant": false,
+              "timeserieslabels": [
+                "cl"
+              ]
+            }
+          },
+          {
+            "id": "r41",
+            "type": "timeserieslabels",
+            "from_name": "label",
+            "to_name": "ts",
+            "origin": "manual",
+            "value": {
+              "start": 213455,
+              "end": 213491,
+              "instant": false,
+              "timeserieslabels": [
+                "j80"
+              ]
+            }
+          },
+          {
+            "id": "r42",
+            "type": "timeserieslabels",
+            "from_name": "label",
+            "to_name": "ts",
+            "origin": "manual",
+            "value": {
+              "start": 213491,
+              "end": 215110,
+              "instant": false,
+              "timeserieslabels": [
+                "cl"
+              ]
+            }
+          },
+          {
+            "id": "r43",
+            "type": "timeserieslabels",
+            "from_name": "label",
+            "to_name": "ts",
+            "origin": "manual",
+            "value": {
+              "start": 215110,
+              "end": 215150,
+              "instant": false,
+              "timeserieslabels": [
+                "j80"
+              ]
+            }
+          },
+          {
+            "id": "r44",
+            "type": "timeserieslabels",
+            "from_name": "label",
+            "to_name": "ts",
+            "origin": "manual",
+            "value": {
+              "start": 215150,
+              "end": 216860,
+              "instant": false,
+              "timeserieslabels": [
+                "cl"
+              ]
+            }
+          },
+          {
+            "id": "r45",
+            "type": "timeserieslabels",
+            "from_name": "label",
+            "to_name": "ts",
+            "origin": "manual",
+            "value": {
+              "start": 216860,
+              "end": 216896,
+              "instant": false,
+              "timeserieslabels": [
+                "j80"
+              ]
+            }
+          },
+          {
+            "id": "r46",
+            "type": "timeserieslabels",
+            "from_name": "label",
+            "to_name": "ts",
+            "origin": "manual",
+            "value": {
+              "start": 216896,
+              "end": 216976,
+              "instant": false,
+              "timeserieslabels": [
+                "cr"
+              ]
+            }
+          },
+          {
+            "id": "r47",
+            "type": "timeserieslabels",
+            "from_name": "label",
+            "to_name": "ts",
+            "origin": "manual",
+            "value": {
+              "start": 216976,
+              "end": 217020,
+              "instant": false,
+              "timeserieslabels": [
+                "fc"
+              ]
+            }
+          },
+          {
+            "id": "r48",
+            "type": "timeserieslabels",
+            "from_name": "label",
+            "to_name": "ts",
+            "origin": "manual",
+            "value": {
+              "start": 217020,
+              "end": 217452,
+              "instant": false,
+              "timeserieslabels": [
+                "cl"
+              ]
+            }
+          },
+          {
+            "id": "r49",
+            "type": "timeserieslabels",
+            "from_name": "label",
+            "to_name": "ts",
+            "origin": "manual",
+            "value": {
+              "start": 217452,
+              "end": 217913,
+              "instant": false,
+              "timeserieslabels": [
+                "tl"
+              ]
+            }
+          },
+          {
+            "id": "r50",
+            "type": "timeserieslabels",
+            "from_name": "label",
+            "to_name": "ts",
+            "origin": "manual",
+            "value": {
+              "start": 217913,
+              "end": 219956,
+              "instant": false,
+              "timeserieslabels": [
+                "wl"
+              ]
+            }
+          },
+          {
+            "id": "r51",
+            "type": "timeserieslabels",
+            "from_name": "label",
+            "to_name": "ts",
+            "origin": "manual",
+            "value": {
+              "start": 219956,
+              "end": 220000,
+              "instant": false,
+              "timeserieslabels": [
+                "wr"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "ts": {
+        "url": "https://kinglotdke.github.io/horse-imu-labeling/horse13/chunks/horse13_chunk0012.csv"
+      }
+    },
+    "predictions": [
+      {
+        "model_version": "init",
+        "result": [
+          {
+            "id": "r52",
+            "type": "timeserieslabels",
+            "from_name": "label",
+            "to_name": "ts",
+            "origin": "manual",
+            "value": {
+              "start": 220000,
+              "end": 223237,
+              "instant": false,
+              "timeserieslabels": [
+                "wr"
+              ]
+            }
+          },
+          {
+            "id": "r53",
+            "type": "timeserieslabels",
+            "from_name": "label",
+            "to_name": "ts",
+            "origin": "manual",
+            "value": {
+              "start": 223237,
+              "end": 224333,
+              "instant": false,
+              "timeserieslabels": [
+                "cr"
+              ]
+            }
+          },
+          {
+            "id": "r54",
+            "type": "timeserieslabels",
+            "from_name": "label",
+            "to_name": "ts",
+            "origin": "manual",
+            "value": {
+              "start": 224333,
+              "end": 224382,
+              "instant": false,
+              "timeserieslabels": [
+                "j100"
+              ]
+            }
+          },
+          {
+            "id": "r55",
+            "type": "timeserieslabels",
+            "from_name": "label",
+            "to_name": "ts",
+            "origin": "manual",
+            "value": {
+              "start": 224382,
+              "end": 224729,
+              "instant": false,
+              "timeserieslabels": [
+                "cl"
+              ]
+            }
+          },
+          {
+            "id": "r56",
+            "type": "timeserieslabels",
+            "from_name": "label",
+            "to_name": "ts",
+            "origin": "manual",
+            "value": {
+              "start": 224729,
+              "end": 224785,
+              "instant": false,
+              "timeserieslabels": [
+                "fc"
+              ]
+            }
+          },
+          {
+            "id": "r57",
+            "type": "timeserieslabels",
+            "from_name": "label",
+            "to_name": "ts",
+            "origin": "manual",
+            "value": {
+              "start": 224785,
+              "end": 225189,
+              "instant": false,
+              "timeserieslabels": [
+                "cr"
+              ]
+            }
+          },
+          {
+            "id": "r58",
+            "type": "timeserieslabels",
+            "from_name": "label",
+            "to_name": "ts",
+            "origin": "manual",
+            "value": {
+              "start": 225189,
+              "end": 225225,
+              "instant": false,
+              "timeserieslabels": [
+                "fc"
+              ]
+            }
+          },
+          {
+            "id": "r59",
+            "type": "timeserieslabels",
+            "from_name": "label",
+            "to_name": "ts",
+            "origin": "manual",
+            "value": {
+              "start": 225225,
+              "end": 225325,
+              "instant": false,
+              "timeserieslabels": [
+                "cl"
+              ]
+            }
+          },
+          {
+            "id": "r60",
+            "type": "timeserieslabels",
+            "from_name": "label",
+            "to_name": "ts",
+            "origin": "manual",
+            "value": {
+              "start": 225325,
+              "end": 225407,
+              "instant": false,
+              "timeserieslabels": [
+                "tr"
+              ]
+            }
+          },
+          {
+            "id": "r61",
+            "type": "timeserieslabels",
+            "from_name": "label",
+            "to_name": "ts",
+            "origin": "manual",
+            "value": {
+              "start": 225407,
+              "end": 226386,
+              "instant": false,
+              "timeserieslabels": [
+                "cr"
+              ]
+            }
+          },
+          {
+            "id": "r62",
+            "type": "timeserieslabels",
+            "from_name": "label",
+            "to_name": "ts",
+            "origin": "manual",
+            "value": {
+              "start": 226386,
+              "end": 226444,
+              "instant": false,
+              "timeserieslabels": [
+                "j100"
+              ]
+            }
+          },
+          {
+            "id": "r63",
+            "type": "timeserieslabels",
+            "from_name": "label",
+            "to_name": "ts",
+            "origin": "manual",
+            "value": {
+              "start": 226444,
+              "end": 228131,
+              "instant": false,
+              "timeserieslabels": [
+                "cr"
+              ]
+            }
+          },
+          {
+            "id": "r64",
+            "type": "timeserieslabels",
+            "from_name": "label",
+            "to_name": "ts",
+            "origin": "manual",
+            "value": {
+              "start": 228131,
+              "end": 228173,
+              "instant": false,
+              "timeserieslabels": [
+                "j100"
+              ]
+            }
+          },
+          {
+            "id": "r65",
+            "type": "timeserieslabels",
+            "from_name": "label",
+            "to_name": "ts",
+            "origin": "manual",
+            "value": {
+              "start": 228173,
+              "end": 229805,
+              "instant": false,
+              "timeserieslabels": [
+                "cr"
+              ]
+            }
+          },
+          {
+            "id": "r66",
+            "type": "timeserieslabels",
+            "from_name": "label",
+            "to_name": "ts",
+            "origin": "manual",
+            "value": {
+              "start": 229805,
+              "end": 229852,
+              "instant": false,
+              "timeserieslabels": [
+                "j100"
+              ]
+            }
+          },
+          {
+            "id": "r67",
+            "type": "timeserieslabels",
+            "from_name": "label",
+            "to_name": "ts",
+            "origin": "manual",
+            "value": {
+              "start": 229852,
+              "end": 230189,
+              "instant": false,
+              "timeserieslabels": [
+                "cr"
+              ]
+            }
+          },
+          {
+            "id": "r68",
+            "type": "timeserieslabels",
+            "from_name": "label",
+            "to_name": "ts",
+            "origin": "manual",
+            "value": {
+              "start": 230189,
+              "end": 230557,
+              "instant": false,
+              "timeserieslabels": [
+                "tr"
+              ]
+            }
+          },
+          {
+            "id": "r69",
+            "type": "timeserieslabels",
+            "from_name": "label",
+            "to_name": "ts",
+            "origin": "manual",
+            "value": {
+              "start": 230557,
+              "end": 237708,
+              "instant": false,
+              "timeserieslabels": [
+                "wr"
+              ]
+            }
+          },
+          {
+            "id": "r70",
+            "type": "timeserieslabels",
+            "from_name": "label",
+            "to_name": "ts",
+            "origin": "manual",
+            "value": {
+              "start": 237708,
+              "end": 238917,
+              "instant": false,
+              "timeserieslabels": [
+                "cl"
+              ]
+            }
+          },
+          {
+            "id": "r71",
+            "type": "timeserieslabels",
+            "from_name": "label",
+            "to_name": "ts",
+            "origin": "manual",
+            "value": {
+              "start": 238917,
+              "end": 239092,
+              "instant": false,
+              "timeserieslabels": [
+                "bo50"
+              ]
+            }
+          },
+          {
+            "id": "r72",
+            "type": "timeserieslabels",
+            "from_name": "label",
+            "to_name": "ts",
+            "origin": "manual",
+            "value": {
+              "start": 239092,
+              "end": 240000,
+              "instant": false,
+              "timeserieslabels": [
+                "cl"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "ts": {
+        "url": "https://kinglotdke.github.io/horse-imu-labeling/horse13/chunks/horse13_chunk0013.csv"
+      }
+    },
+    "predictions": [
+      {
+        "model_version": "init",
+        "result": [
+          {
+            "id": "r73",
+            "type": "timeserieslabels",
+            "from_name": "label",
+            "to_name": "ts",
+            "origin": "manual",
+            "value": {
+              "start": 240000,
+              "end": 240927,
+              "instant": false,
+              "timeserieslabels": [
+                "cl"
+              ]
+            }
+          },
+          {
+            "id": "r74",
+            "type": "timeserieslabels",
+            "from_name": "label",
+            "to_name": "ts",
+            "origin": "manual",
+            "value": {
+              "start": 240927,
+              "end": 241083,
+              "instant": false,
+              "timeserieslabels": [
+                "bo50"
+              ]
+            }
+          },
+          {
+            "id": "r75",
+            "type": "timeserieslabels",
+            "from_name": "label",
+            "to_name": "ts",
+            "origin": "manual",
+            "value": {
+              "start": 241083,
+              "end": 241391,
+              "instant": false,
+              "timeserieslabels": [
+                "cr"
+              ]
+            }
+          },
+          {
+            "id": "r76",
+            "type": "timeserieslabels",
+            "from_name": "label",
+            "to_name": "ts",
+            "origin": "manual",
+            "value": {
+              "start": 241391,
+              "end": 241422,
+              "instant": false,
+              "timeserieslabels": [
+                "fc"
+              ]
+            }
+          },
+          {
+            "id": "r77",
+            "type": "timeserieslabels",
+            "from_name": "label",
+            "to_name": "ts",
+            "origin": "manual",
+            "value": {
+              "start": 241422,
+              "end": 243268,
+              "instant": false,
+              "timeserieslabels": [
+                "cl"
+              ]
+            }
+          },
+          {
+            "id": "r78",
+            "type": "timeserieslabels",
+            "from_name": "label",
+            "to_name": "ts",
+            "origin": "manual",
+            "value": {
+              "start": 243268,
+              "end": 243424,
+              "instant": false,
+              "timeserieslabels": [
+                "bo50"
+              ]
+            }
+          },
+          {
+            "id": "r79",
+            "type": "timeserieslabels",
+            "from_name": "label",
+            "to_name": "ts",
+            "origin": "manual",
+            "value": {
+              "start": 243424,
+              "end": 243977,
+              "instant": false,
+              "timeserieslabels": [
+                "cr"
+              ]
+            }
+          },
+          {
+            "id": "r80",
+            "type": "timeserieslabels",
+            "from_name": "label",
+            "to_name": "ts",
+            "origin": "manual",
+            "value": {
+              "start": 243977,
+              "end": 244327,
+              "instant": false,
+              "timeserieslabels": [
+                "tr"
+              ]
+            }
+          },
+          {
+            "id": "r81",
+            "type": "timeserieslabels",
+            "from_name": "label",
+            "to_name": "ts",
+            "origin": "manual",
+            "value": {
+              "start": 244327,
+              "end": 260000,
+              "instant": false,
+              "timeserieslabels": [
+                "wr"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "ts": {
+        "url": "https://kinglotdke.github.io/horse-imu-labeling/horse13/chunks/horse13_chunk0014.csv"
+      }
+    },
+    "predictions": [
+      {
+        "model_version": "init",
+        "result": [
+          {
+            "id": "r82",
+            "type": "timeserieslabels",
+            "from_name": "label",
+            "to_name": "ts",
+            "origin": "manual",
+            "value": {
+              "start": 260000,
+              "end": 266391,
+              "instant": false,
+              "timeserieslabels": [
+                "wr"
+              ]
+            }
+          },
+          {
+            "id": "r83",
+            "type": "timeserieslabels",
+            "from_name": "label",
+            "to_name": "ts",
+            "origin": "manual",
+            "value": {
+              "start": 266391,
+              "end": 274261,
+              "instant": false,
+              "timeserieslabels": [
+                "h"
+              ]
+            }
+          },
+          {
+            "id": "r84",
+            "type": "timeserieslabels",
+            "from_name": "label",
+            "to_name": "ts",
+            "origin": "manual",
+            "value": {
+              "start": 274261,
+              "end": 276937,
+              "instant": false,
+              "timeserieslabels": [
+                "wr"
+              ]
+            }
+          },
+          {
+            "id": "r85",
+            "type": "timeserieslabels",
+            "from_name": "label",
+            "to_name": "ts",
+            "origin": "manual",
+            "value": {
+              "start": 276937,
+              "end": 278238,
+              "instant": false,
+              "timeserieslabels": [
+                "cr"
+              ]
+            }
+          },
+          {
+            "id": "r86",
+            "type": "timeserieslabels",
+            "from_name": "label",
+            "to_name": "ts",
+            "origin": "manual",
+            "value": {
+              "start": 278238,
+              "end": 278294,
+              "instant": false,
+              "timeserieslabels": [
+                "j110"
+              ]
+            }
+          },
+          {
+            "id": "r87",
+            "type": "timeserieslabels",
+            "from_name": "label",
+            "to_name": "ts",
+            "origin": "manual",
+            "value": {
+              "start": 278294,
+              "end": 278985,
+              "instant": false,
+              "timeserieslabels": [
+                "cl"
+              ]
+            }
+          },
+          {
+            "id": "r88",
+            "type": "timeserieslabels",
+            "from_name": "label",
+            "to_name": "ts",
+            "origin": "manual",
+            "value": {
+              "start": 278985,
+              "end": 279033,
+              "instant": false,
+              "timeserieslabels": [
+                "j110"
+              ]
+            }
+          },
+          {
+            "id": "r89",
+            "type": "timeserieslabels",
+            "from_name": "label",
+            "to_name": "ts",
+            "origin": "manual",
+            "value": {
+              "start": 279033,
+              "end": 279407,
+              "instant": false,
+              "timeserieslabels": [
+                "cl"
+              ]
+            }
+          },
+          {
+            "id": "r90",
+            "type": "timeserieslabels",
+            "from_name": "label",
+            "to_name": "ts",
+            "origin": "manual",
+            "value": {
+              "start": 279407,
+              "end": 279488,
+              "instant": false,
+              "timeserieslabels": [
+                "j110"
+              ]
+            }
+          },
+          {
+            "id": "r91",
+            "type": "timeserieslabels",
+            "from_name": "label",
+            "to_name": "ts",
+            "origin": "manual",
+            "value": {
+              "start": 279488,
+              "end": 280000,
+              "instant": false,
+              "timeserieslabels": [
+                "cr"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "ts": {
+        "url": "https://kinglotdke.github.io/horse-imu-labeling/horse13/chunks/horse13_chunk0015.csv"
+      }
+    },
+    "predictions": [
+      {
+        "model_version": "init",
+        "result": [
+          {
+            "id": "r92",
+            "type": "timeserieslabels",
+            "from_name": "label",
+            "to_name": "ts",
+            "origin": "manual",
+            "value": {
+              "start": 280000,
+              "end": 280816,
+              "instant": false,
+              "timeserieslabels": [
+                "cr"
+              ]
+            }
+          },
+          {
+            "id": "r93",
+            "type": "timeserieslabels",
+            "from_name": "label",
+            "to_name": "ts",
+            "origin": "manual",
+            "value": {
+              "start": 280816,
+              "end": 280871,
+              "instant": false,
+              "timeserieslabels": [
+                "j110"
+              ]
+            }
+          },
+          {
+            "id": "r94",
+            "type": "timeserieslabels",
+            "from_name": "label",
+            "to_name": "ts",
+            "origin": "manual",
+            "value": {
+              "start": 280871,
+              "end": 282086,
+              "instant": false,
+              "timeserieslabels": [
+                "cr"
+              ]
+            }
+          },
+          {
+            "id": "r95",
+            "type": "timeserieslabels",
+            "from_name": "label",
+            "to_name": "ts",
+            "origin": "manual",
+            "value": {
+              "start": 282086,
+              "end": 282124,
+              "instant": false,
+              "timeserieslabels": [
+                "j110"
+              ]
+            }
+          },
+          {
+            "id": "r96",
+            "type": "timeserieslabels",
+            "from_name": "label",
+            "to_name": "ts",
+            "origin": "manual",
+            "value": {
+              "start": 282124,
+              "end": 282222,
+              "instant": false,
+              "timeserieslabels": [
+                "cl"
+              ]
+            }
+          },
+          {
+            "id": "r97",
+            "type": "timeserieslabels",
+            "from_name": "label",
+            "to_name": "ts",
+            "origin": "manual",
+            "value": {
+              "start": 282222,
+              "end": 282262,
+              "instant": false,
+              "timeserieslabels": [
+                "j110"
+              ]
+            }
+          },
+          {
+            "id": "r98",
+            "type": "timeserieslabels",
+            "from_name": "label",
+            "to_name": "ts",
+            "origin": "manual",
+            "value": {
+              "start": 282262,
+              "end": 283290,
+              "instant": false,
+              "timeserieslabels": [
+                "cr"
+              ]
+            }
+          },
+          {
+            "id": "r99",
+            "type": "timeserieslabels",
+            "from_name": "label",
+            "to_name": "ts",
+            "origin": "manual",
+            "value": {
+              "start": 283290,
+              "end": 283337,
+              "instant": false,
+              "timeserieslabels": [
+                "j110"
+              ]
+            }
+          },
+          {
+            "id": "r100",
+            "type": "timeserieslabels",
+            "from_name": "label",
+            "to_name": "ts",
+            "origin": "manual",
+            "value": {
+              "start": 283337,
+              "end": 284300,
+              "instant": false,
+              "timeserieslabels": [
+                "cr"
+              ]
+            }
+          },
+          {
+            "id": "r101",
+            "type": "timeserieslabels",
+            "from_name": "label",
+            "to_name": "ts",
+            "origin": "manual",
+            "value": {
+              "start": 284300,
+              "end": 284352,
+              "instant": false,
+              "timeserieslabels": [
+                "j110"
+              ]
+            }
+          },
+          {
+            "id": "r102",
+            "type": "timeserieslabels",
+            "from_name": "label",
+            "to_name": "ts",
+            "origin": "manual",
+            "value": {
+              "start": 284352,
+              "end": 285247,
+              "instant": false,
+              "timeserieslabels": [
+                "cl"
+              ]
+            }
+          },
+          {
+            "id": "r103",
+            "type": "timeserieslabels",
+            "from_name": "label",
+            "to_name": "ts",
+            "origin": "manual",
+            "value": {
+              "start": 285247,
+              "end": 285291,
+              "instant": false,
+              "timeserieslabels": [
+                "j110"
+              ]
+            }
+          },
+          {
+            "id": "r104",
+            "type": "timeserieslabels",
+            "from_name": "label",
+            "to_name": "ts",
+            "origin": "manual",
+            "value": {
+              "start": 285291,
+              "end": 285935,
+              "instant": false,
+              "timeserieslabels": [
+                "cl"
+              ]
+            }
+          },
+          {
+            "id": "r105",
+            "type": "timeserieslabels",
+            "from_name": "label",
+            "to_name": "ts",
+            "origin": "manual",
+            "value": {
+              "start": 285935,
+              "end": 286263,
+              "instant": false,
+              "timeserieslabels": [
+                "tl"
+              ]
+            }
+          },
+          {
+            "id": "r106",
+            "type": "timeserieslabels",
+            "from_name": "label",
+            "to_name": "ts",
+            "origin": "manual",
+            "value": {
+              "start": 286263,
+              "end": 293113,
+              "instant": false,
+              "timeserieslabels": [
+                "wl"
+              ]
+            }
+          },
+          {
+            "id": "r107",
+            "type": "timeserieslabels",
+            "from_name": "label",
+            "to_name": "ts",
+            "origin": "manual",
+            "value": {
+              "start": 293113,
+              "end": 298775,
+              "instant": false,
+              "timeserieslabels": [
+                "wr"
+              ]
+            }
+          },
+          {
+            "id": "r108",
+            "type": "timeserieslabels",
+            "from_name": "label",
+            "to_name": "ts",
+            "origin": "manual",
+            "value": {
+              "start": 298775,
+              "end": 300000,
+              "instant": false,
+              "timeserieslabels": [
+                "wl"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "ts": {
+        "url": "https://kinglotdke.github.io/horse-imu-labeling/horse13/chunks/horse13_chunk0016.csv"
+      }
+    },
+    "predictions": [
+      {
+        "model_version": "init",
+        "result": [
+          {
+            "id": "r109",
+            "type": "timeserieslabels",
+            "from_name": "label",
+            "to_name": "ts",
+            "origin": "manual",
+            "value": {
+              "start": 300000,
+              "end": 301701,
+              "instant": false,
+              "timeserieslabels": [
+                "wl"
+              ]
+            }
+          },
+          {
+            "id": "r110",
+            "type": "timeserieslabels",
+            "from_name": "label",
+            "to_name": "ts",
+            "origin": "manual",
+            "value": {
+              "start": 301701,
+              "end": 304474,
+              "instant": false,
+              "timeserieslabels": [
+                "wr"
+              ]
+            }
+          },
+          {
+            "id": "r111",
+            "type": "timeserieslabels",
+            "from_name": "label",
+            "to_name": "ts",
+            "origin": "manual",
+            "value": {
+              "start": 304474,
+              "end": 311389,
+              "instant": false,
+              "timeserieslabels": [
+                "wl"
+              ]
+            }
+          },
+          {
+            "id": "r112",
+            "type": "timeserieslabels",
+            "from_name": "label",
+            "to_name": "ts",
+            "origin": "manual",
+            "value": {
+              "start": 311389,
+              "end": 312248,
+              "instant": false,
+              "timeserieslabels": [
+                "wr"
+              ]
+            }
+          },
+          {
+            "id": "r113",
+            "type": "timeserieslabels",
+            "from_name": "label",
+            "to_name": "ts",
+            "origin": "manual",
+            "value": {
+              "start": 312248,
+              "end": 312469,
+              "instant": false,
+              "timeserieslabels": [
+                "h"
+              ]
+            }
+          },
+          {
+            "id": "r114",
+            "type": "timeserieslabels",
+            "from_name": "label",
+            "to_name": "ts",
+            "origin": "manual",
+            "value": {
+              "start": 312469,
+              "end": 317631,
+              "instant": false,
+              "timeserieslabels": [
+                "endtest"
+              ]
+            }
+          },
+          {
+            "id": "r115",
+            "type": "timeserieslabels",
+            "from_name": "label",
+            "to_name": "ts",
+            "origin": "manual",
+            "value": {
+              "start": 317631,
+              "end": 318972,
+              "instant": false,
+              "timeserieslabels": [
+                "unlabeled"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
