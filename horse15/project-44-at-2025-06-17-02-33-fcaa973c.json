@@ -1,0 +1,1059 @@
+[
+  {
+    "ts": {
+      "url": "https:\/\/kinglotdke.github.io\/horse-imu-labeling\/horse15\/chunks\/horse15_chunk0001.csv"
+    },
+    "id": 445,
+    "label": [
+      {
+        "start": 0,
+        "end": 8653,
+        "instant": false,
+        "timeserieslabels": [
+          "unlabeled"
+        ]
+      },
+      {
+        "start": 8653,
+        "end": 18387,
+        "instant": false,
+        "timeserieslabels": [
+          "tt"
+        ]
+      },
+      {
+        "start": 18387,
+        "end": 18755,
+        "instant": false,
+        "timeserieslabels": [
+          "fw"
+        ]
+      },
+      {
+        "start": 18755,
+        "end": 20000,
+        "instant": false,
+        "timeserieslabels": [
+          "wl"
+        ]
+      },
+      {
+        "start": 18366,
+        "end": 18426,
+        "instant": false,
+        "timeserieslabels": [
+          "unlabeled"
+        ]
+      },
+      {
+        "start": 18731,
+        "end": 18803,
+        "instant": false,
+        "timeserieslabels": [
+          "unlabeled"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1025,
+    "created_at": "2025-06-17T00:25:31.185485Z",
+    "updated_at": "2025-06-17T00:25:31.185485Z",
+    "lead_time": 13.278
+  },
+  {
+    "ts": {
+      "url": "https:\/\/kinglotdke.github.io\/horse-imu-labeling\/horse15\/chunks\/horse15_chunk0002.csv"
+    },
+    "id": 446,
+    "label": [
+      {
+        "start": 20000,
+        "end": 29784,
+        "instant": false,
+        "timeserieslabels": [
+          "wl"
+        ]
+      },
+      {
+        "start": 29784,
+        "end": 40000,
+        "instant": false,
+        "timeserieslabels": [
+          "tl"
+        ]
+      },
+      {
+        "start": 29506,
+        "end": 29851,
+        "instant": false,
+        "timeserieslabels": [
+          "unlabeled"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1026,
+    "created_at": "2025-06-17T00:25:47.925150Z",
+    "updated_at": "2025-06-17T00:25:47.925150Z",
+    "lead_time": 13.862
+  },
+  {
+    "ts": {
+      "url": "https:\/\/kinglotdke.github.io\/horse-imu-labeling\/horse15\/chunks\/horse15_chunk0003.csv"
+    },
+    "id": 447,
+    "label": [
+      {
+        "start": 40000,
+        "end": 51514,
+        "instant": false,
+        "timeserieslabels": [
+          "tl"
+        ]
+      },
+      {
+        "start": 51514,
+        "end": 60000,
+        "instant": false,
+        "timeserieslabels": [
+          "tr"
+        ]
+      },
+      {
+        "start": 51440,
+        "end": 51641,
+        "instant": false,
+        "timeserieslabels": [
+          "unlabeled"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1027,
+    "created_at": "2025-06-17T00:25:56.828191Z",
+    "updated_at": "2025-06-17T00:25:56.828191Z",
+    "lead_time": 7.369
+  },
+  {
+    "ts": {
+      "url": "https:\/\/kinglotdke.github.io\/horse-imu-labeling\/horse15\/chunks\/horse15_chunk0004.csv"
+    },
+    "id": 448,
+    "label": [
+      {
+        "start": 60000,
+        "end": 65882,
+        "instant": false,
+        "timeserieslabels": [
+          "tr"
+        ]
+      },
+      {
+        "start": 65882,
+        "end": 80000,
+        "instant": false,
+        "timeserieslabels": [
+          "wl"
+        ]
+      },
+      {
+        "start": 65598,
+        "end": 66007,
+        "instant": false,
+        "timeserieslabels": [
+          "unlabeled"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1028,
+    "created_at": "2025-06-17T00:26:10.036034Z",
+    "updated_at": "2025-06-17T00:26:10.036034Z",
+    "lead_time": 7.725
+  },
+  {
+    "ts": {
+      "url": "https:\/\/kinglotdke.github.io\/horse-imu-labeling\/horse15\/chunks\/horse15_chunk0005.csv"
+    },
+    "id": 449,
+    "label": [
+      {
+        "start": 80000,
+        "end": 84639,
+        "instant": false,
+        "timeserieslabels": [
+          "wl"
+        ]
+      },
+      {
+        "start": 84639,
+        "end": 100000,
+        "instant": false,
+        "timeserieslabels": [
+          "wr"
+        ]
+      },
+      {
+        "start": 84506,
+        "end": 84755,
+        "instant": false,
+        "timeserieslabels": [
+          "unlabeled"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1029,
+    "created_at": "2025-06-17T00:26:21.240747Z",
+    "updated_at": "2025-06-17T00:26:21.240747Z",
+    "lead_time": 9.681
+  },
+  {
+    "ts": {
+      "url": "https:\/\/kinglotdke.github.io\/horse-imu-labeling\/horse15\/chunks\/horse15_chunk0006.csv"
+    },
+    "id": 450,
+    "label": [
+      {
+        "start": 100000,
+        "end": 100367,
+        "instant": false,
+        "timeserieslabels": [
+          "wr"
+        ]
+      },
+      {
+        "start": 100367,
+        "end": 102905,
+        "instant": false,
+        "timeserieslabels": [
+          "tl"
+        ]
+      },
+      {
+        "start": 102905,
+        "end": 103081,
+        "instant": false,
+        "timeserieslabels": [
+          "cr"
+        ]
+      },
+      {
+        "start": 103081,
+        "end": 103325,
+        "instant": false,
+        "timeserieslabels": [
+          "tl"
+        ]
+      },
+      {
+        "start": 103325,
+        "end": 117621,
+        "instant": false,
+        "timeserieslabels": [
+          "cl"
+        ]
+      },
+      {
+        "start": 117621,
+        "end": 119371,
+        "instant": false,
+        "timeserieslabels": [
+          "tl"
+        ]
+      },
+      {
+        "start": 119371,
+        "end": 120000,
+        "instant": false,
+        "timeserieslabels": [
+          "cr"
+        ]
+      },
+      {
+        "start": 100283,
+        "end": 100451,
+        "instant": false,
+        "timeserieslabels": [
+          "unlabeled"
+        ]
+      },
+      {
+        "start": 102858,
+        "end": 102918,
+        "instant": false,
+        "timeserieslabels": [
+          "unlabeled"
+        ]
+      },
+      {
+        "start": 103058,
+        "end": 103126,
+        "instant": false,
+        "timeserieslabels": [
+          "unlabeled"
+        ]
+      },
+      {
+        "start": 103283,
+        "end": 103367,
+        "instant": false,
+        "timeserieslabels": [
+          "unlabeled"
+        ]
+      },
+      {
+        "start": 117588,
+        "end": 117676,
+        "instant": false,
+        "timeserieslabels": [
+          "unlabeled"
+        ]
+      },
+      {
+        "start": 119304,
+        "end": 119433,
+        "instant": false,
+        "timeserieslabels": [
+          "unlabeled"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1030,
+    "created_at": "2025-06-17T00:27:08.502468Z",
+    "updated_at": "2025-06-17T00:27:08.502468Z",
+    "lead_time": 40.655
+  },
+  {
+    "ts": {
+      "url": "https:\/\/kinglotdke.github.io\/horse-imu-labeling\/horse15\/chunks\/horse15_chunk0007.csv"
+    },
+    "id": 451,
+    "label": [
+      {
+        "start": 120000,
+        "end": 136080,
+        "instant": false,
+        "timeserieslabels": [
+          "cr"
+        ]
+      },
+      {
+        "start": 136080,
+        "end": 136425,
+        "instant": false,
+        "timeserieslabels": [
+          "tr"
+        ]
+      },
+      {
+        "start": 136425,
+        "end": 140000,
+        "instant": false,
+        "timeserieslabels": [
+          "wr"
+        ]
+      },
+      {
+        "start": 136364,
+        "end": 136488,
+        "instant": false,
+        "timeserieslabels": [
+          "unlabeled"
+        ]
+      },
+      {
+        "start": 136015,
+        "end": 136151,
+        "instant": false,
+        "timeserieslabels": [
+          "unlabeled"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1031,
+    "created_at": "2025-06-17T00:27:31.804208Z",
+    "updated_at": "2025-06-17T00:27:31.804208Z",
+    "lead_time": 19.633
+  },
+  {
+    "ts": {
+      "url": "https:\/\/kinglotdke.github.io\/horse-imu-labeling\/horse15\/chunks\/horse15_chunk0009.csv"
+    },
+    "id": 453,
+    "label": [
+      {
+        "start": 160000,
+        "end": 162499,
+        "instant": false,
+        "timeserieslabels": [
+          "wr"
+        ]
+      },
+      {
+        "start": 162499,
+        "end": 163481,
+        "instant": false,
+        "timeserieslabels": [
+          "tr"
+        ]
+      },
+      {
+        "start": 163481,
+        "end": 169296,
+        "instant": false,
+        "timeserieslabels": [
+          "st"
+        ]
+      },
+      {
+        "start": 169296,
+        "end": 169948,
+        "instant": false,
+        "timeserieslabels": [
+          "ext"
+        ]
+      },
+      {
+        "start": 169948,
+        "end": 173769,
+        "instant": false,
+        "timeserieslabels": [
+          "tl"
+        ]
+      },
+      {
+        "start": 173769,
+        "end": 174970,
+        "instant": false,
+        "timeserieslabels": [
+          "cr"
+        ]
+      },
+      {
+        "start": 174970,
+        "end": 175459,
+        "instant": false,
+        "timeserieslabels": [
+          "tl"
+        ]
+      },
+      {
+        "start": 175459,
+        "end": 176312,
+        "instant": false,
+        "timeserieslabels": [
+          "cl"
+        ]
+      },
+      {
+        "start": 176312,
+        "end": 180000,
+        "instant": false,
+        "timeserieslabels": [
+          "v8lc"
+        ]
+      },
+      {
+        "start": 162271,
+        "end": 162614,
+        "instant": false,
+        "timeserieslabels": [
+          "unlabeled"
+        ]
+      },
+      {
+        "start": 163370,
+        "end": 163585,
+        "instant": false,
+        "timeserieslabels": [
+          "unlabeled"
+        ]
+      },
+      {
+        "start": 169227,
+        "end": 169380,
+        "instant": false,
+        "timeserieslabels": [
+          "unlabeled"
+        ]
+      },
+      {
+        "start": 169886,
+        "end": 170049,
+        "instant": false,
+        "timeserieslabels": [
+          "unlabeled"
+        ]
+      },
+      {
+        "start": 173583,
+        "end": 173864,
+        "instant": false,
+        "timeserieslabels": [
+          "unlabeled"
+        ]
+      },
+      {
+        "start": 174835,
+        "end": 175039,
+        "instant": false,
+        "timeserieslabels": [
+          "unlabeled"
+        ]
+      },
+      {
+        "start": 175377,
+        "end": 175520,
+        "instant": false,
+        "timeserieslabels": [
+          "unlabeled"
+        ]
+      },
+      {
+        "start": 176188,
+        "end": 176397,
+        "instant": false,
+        "timeserieslabels": [
+          "unlabeled"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1032,
+    "created_at": "2025-06-17T00:30:34.483593Z",
+    "updated_at": "2025-06-17T00:30:34.483593Z",
+    "lead_time": 102.39500000000001
+  },
+  {
+    "ts": {
+      "url": "https:\/\/kinglotdke.github.io\/horse-imu-labeling\/horse15\/chunks\/horse15_chunk0010.csv"
+    },
+    "id": 454,
+    "label": [
+      {
+        "start": 180000,
+        "end": 180258,
+        "instant": false,
+        "timeserieslabels": [
+          "v8lc"
+        ]
+      },
+      {
+        "start": 180258,
+        "end": 185966,
+        "instant": false,
+        "timeserieslabels": [
+          "tl"
+        ]
+      },
+      {
+        "start": 185966,
+        "end": 189499,
+        "instant": false,
+        "timeserieslabels": [
+          "cr"
+        ]
+      },
+      {
+        "start": 189499,
+        "end": 190950,
+        "instant": false,
+        "timeserieslabels": [
+          "tr"
+        ]
+      },
+      {
+        "start": 190950,
+        "end": 194054,
+        "instant": false,
+        "timeserieslabels": [
+          "wr"
+        ]
+      },
+      {
+        "start": 194054,
+        "end": 196206,
+        "instant": false,
+        "timeserieslabels": [
+          "wl"
+        ]
+      },
+      {
+        "start": 196206,
+        "end": 200000,
+        "instant": false,
+        "timeserieslabels": [
+          "tl"
+        ]
+      },
+      {
+        "start": 180212,
+        "end": 180394,
+        "instant": false,
+        "timeserieslabels": [
+          "unlabeled"
+        ]
+      },
+      {
+        "start": 185831,
+        "end": 186088,
+        "instant": false,
+        "timeserieslabels": [
+          "unlabeled"
+        ]
+      },
+      {
+        "start": 189313,
+        "end": 189652,
+        "instant": false,
+        "timeserieslabels": [
+          "unlabeled"
+        ]
+      },
+      {
+        "start": 190895,
+        "end": 191068,
+        "instant": false,
+        "timeserieslabels": [
+          "unlabeled"
+        ]
+      },
+      {
+        "start": 193908,
+        "end": 194266,
+        "instant": false,
+        "timeserieslabels": [
+          "unlabeled"
+        ]
+      },
+      {
+        "start": 195886,
+        "end": 196410,
+        "instant": false,
+        "timeserieslabels": [
+          "unlabeled"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1033,
+    "created_at": "2025-06-17T00:31:26.930907Z",
+    "updated_at": "2025-06-17T00:31:26.930907Z",
+    "lead_time": 50.223
+  },
+  {
+    "ts": {
+      "url": "https:\/\/kinglotdke.github.io\/horse-imu-labeling\/horse15\/chunks\/horse15_chunk0011.csv"
+    },
+    "id": 455,
+    "label": [
+      {
+        "start": 200000,
+        "end": 202380,
+        "instant": false,
+        "timeserieslabels": [
+          "tl"
+        ]
+      },
+      {
+        "start": 202380,
+        "end": 204682,
+        "instant": false,
+        "timeserieslabels": [
+          "tr"
+        ]
+      },
+      {
+        "start": 204682,
+        "end": 205488,
+        "instant": false,
+        "timeserieslabels": [
+          "w"
+        ]
+      },
+      {
+        "start": 205488,
+        "end": 206037,
+        "instant": false,
+        "timeserieslabels": [
+          "h"
+        ]
+      },
+      {
+        "start": 206037,
+        "end": 207850,
+        "instant": false,
+        "timeserieslabels": [
+          "wr"
+        ]
+      },
+      {
+        "start": 207850,
+        "end": 210308,
+        "instant": false,
+        "timeserieslabels": [
+          "h"
+        ]
+      },
+      {
+        "start": 210308,
+        "end": 218326,
+        "instant": false,
+        "timeserieslabels": [
+          "wr"
+        ]
+      },
+      {
+        "start": 218326,
+        "end": 220000,
+        "instant": false,
+        "timeserieslabels": [
+          "tr"
+        ]
+      },
+      {
+        "start": 202308,
+        "end": 202473,
+        "instant": false,
+        "timeserieslabels": [
+          "unlabeled"
+        ]
+      },
+      {
+        "start": 204578,
+        "end": 204767,
+        "instant": false,
+        "timeserieslabels": [
+          "unlabeled"
+        ]
+      },
+      {
+        "start": 205406,
+        "end": 205594,
+        "instant": false,
+        "timeserieslabels": [
+          "unlabeled"
+        ]
+      },
+      {
+        "start": 205987,
+        "end": 206116,
+        "instant": false,
+        "timeserieslabels": [
+          "unlabeled"
+        ]
+      },
+      {
+        "start": 207784,
+        "end": 207911,
+        "instant": false,
+        "timeserieslabels": [
+          "unlabeled"
+        ]
+      },
+      {
+        "start": 210067,
+        "end": 210419,
+        "instant": false,
+        "timeserieslabels": [
+          "unlabeled"
+        ]
+      },
+      {
+        "start": 218113,
+        "end": 218495,
+        "instant": false,
+        "timeserieslabels": [
+          "unlabeled"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1034,
+    "created_at": "2025-06-17T00:32:15.674145Z",
+    "updated_at": "2025-06-17T00:32:15.674145Z",
+    "lead_time": 46.179
+  },
+  {
+    "ts": {
+      "url": "https:\/\/kinglotdke.github.io\/horse-imu-labeling\/horse15\/chunks\/horse15_chunk0012.csv"
+    },
+    "id": 456,
+    "label": [
+      {
+        "start": 220000,
+        "end": 223437,
+        "instant": false,
+        "timeserieslabels": [
+          "tr"
+        ]
+      },
+      {
+        "start": 223437,
+        "end": 227622,
+        "instant": false,
+        "timeserieslabels": [
+          "cr"
+        ]
+      },
+      {
+        "start": 227622,
+        "end": 227650,
+        "instant": false,
+        "timeserieslabels": [
+          "j20"
+        ]
+      },
+      {
+        "start": 227650,
+        "end": 228152,
+        "instant": false,
+        "timeserieslabels": [
+          "cr"
+        ]
+      },
+      {
+        "start": 228152,
+        "end": 228542,
+        "instant": false,
+        "timeserieslabels": [
+          "tr"
+        ]
+      },
+      {
+        "start": 228542,
+        "end": 231154,
+        "instant": false,
+        "timeserieslabels": [
+          "cl"
+        ]
+      },
+      {
+        "start": 231154,
+        "end": 231187,
+        "instant": false,
+        "timeserieslabels": [
+          "j20"
+        ]
+      },
+      {
+        "start": 231187,
+        "end": 232130,
+        "instant": false,
+        "timeserieslabels": [
+          "cr"
+        ]
+      },
+      {
+        "start": 232130,
+        "end": 233763,
+        "instant": false,
+        "timeserieslabels": [
+          "tl"
+        ]
+      },
+      {
+        "start": 233763,
+        "end": 235355,
+        "instant": false,
+        "timeserieslabels": [
+          "cr"
+        ]
+      },
+      {
+        "start": 235355,
+        "end": 235391,
+        "instant": false,
+        "timeserieslabels": [
+          "j20"
+        ]
+      },
+      {
+        "start": 235391,
+        "end": 235888,
+        "instant": false,
+        "timeserieslabels": [
+          "cr"
+        ]
+      },
+      {
+        "start": 235888,
+        "end": 237372,
+        "instant": false,
+        "timeserieslabels": [
+          "tl"
+        ]
+      },
+      {
+        "start": 237372,
+        "end": 240000,
+        "instant": false,
+        "timeserieslabels": [
+          "wl"
+        ]
+      },
+      {
+        "start": 223359,
+        "end": 223503,
+        "instant": false,
+        "timeserieslabels": [
+          "unlabeled"
+        ]
+      },
+      {
+        "start": 228098,
+        "end": 228206,
+        "instant": false,
+        "timeserieslabels": [
+          "unlabeled"
+        ]
+      },
+      {
+        "start": 228487,
+        "end": 228583,
+        "instant": false,
+        "timeserieslabels": [
+          "unlabeled"
+        ]
+      },
+      {
+        "start": 232082,
+        "end": 232194,
+        "instant": false,
+        "timeserieslabels": [
+          "unlabeled"
+        ]
+      },
+      {
+        "start": 233683,
+        "end": 233864,
+        "instant": false,
+        "timeserieslabels": [
+          "unlabeled"
+        ]
+      },
+      {
+        "start": 235846,
+        "end": 235955,
+        "instant": false,
+        "timeserieslabels": [
+          "unlabeled"
+        ]
+      },
+      {
+        "start": 237167,
+        "end": 237480,
+        "instant": false,
+        "timeserieslabels": [
+          "unlabeled"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1035,
+    "created_at": "2025-06-17T00:33:14.016839Z",
+    "updated_at": "2025-06-17T00:33:14.016839Z",
+    "lead_time": 56.085
+  },
+  {
+    "ts": {
+      "url": "https:\/\/kinglotdke.github.io\/horse-imu-labeling\/horse15\/chunks\/horse15_chunk0013.csv"
+    },
+    "id": 457,
+    "label": [
+      {
+        "start": 240000,
+        "end": 241120,
+        "instant": false,
+        "timeserieslabels": [
+          "wl"
+        ]
+      },
+      {
+        "start": 241120,
+        "end": 260000,
+        "instant": false,
+        "timeserieslabels": [
+          "wr"
+        ]
+      },
+      {
+        "start": 241033,
+        "end": 241193,
+        "instant": false,
+        "timeserieslabels": [
+          "unlabeled"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1036,
+    "created_at": "2025-06-17T00:33:25.985610Z",
+    "updated_at": "2025-06-17T00:33:25.985610Z",
+    "lead_time": 7.875
+  },
+  {
+    "ts": {
+      "url": "https:\/\/kinglotdke.github.io\/horse-imu-labeling\/horse15\/chunks\/horse15_chunk0014.csv"
+    },
+    "id": 458,
+    "label": [
+      {
+        "start": 260000,
+        "end": 272649,
+        "instant": false,
+        "timeserieslabels": [
+          "wr"
+        ]
+      },
+      {
+        "start": 272649,
+        "end": 279324,
+        "instant": false,
+        "timeserieslabels": [
+          "wl"
+        ]
+      },
+      {
+        "start": 279324,
+        "end": 279562,
+        "instant": false,
+        "timeserieslabels": [
+          "h"
+        ]
+      },
+      {
+        "start": 279562,
+        "end": 280000,
+        "instant": false,
+        "timeserieslabels": [
+          "endtest"
+        ]
+      },
+      {
+        "start": 272424,
+        "end": 272857,
+        "instant": false,
+        "timeserieslabels": [
+          "unlabeled"
+        ]
+      },
+      {
+        "start": 279271,
+        "end": 279342,
+        "instant": false,
+        "timeserieslabels": [
+          "unlabeled"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1037,
+    "created_at": "2025-06-17T00:33:42.893659Z",
+    "updated_at": "2025-06-17T00:33:42.893659Z",
+    "lead_time": 15.166
+  }
+]
